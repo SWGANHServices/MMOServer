@@ -128,8 +128,9 @@ FUNCTION(AddMMOServerLibrary name)
             optimized ${Boost_SYSTEM_LIBRARY_RELEASE}
             optimized ${Boost_THREAD_LIBRARY_RELEASE}
             optimized ${Boost_LOG_LIBRARY_RELEASE}
-            optimized ${TBB_LIBRARY}
-            optimized ${TBB_MALLOC_LIBRARY})
+            #optimized ${TBB_LIBRARY}
+            #optimized ${TBB_MALLOC_LIBRARY}
+			)
                 
         IF(_project_deps_list_length GREATER 0)
             ADD_DEPENDENCIES(${name}_tests ${MMOSERVERLIB_MMOSERVER_DEPS})
