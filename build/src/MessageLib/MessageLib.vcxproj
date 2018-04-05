@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -74,7 +74,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\noise\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\noise\include;%(AdditionalIncludeDirectories);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -123,7 +123,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -157,7 +158,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -266,23 +268,23 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\BuildingMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CommonMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CreatureMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\FactoryCrateMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\HarvesterMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\IntangibleMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\InternalMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ManSchematicMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MessageLib.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MissionMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ObjControllerMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\PlayerMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ResourceContainerMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StaticMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StructureMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\SystemMessages.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\TangibleMessages.cpp"  />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\BuildingMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CommonMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CreatureMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\FactoryCrateMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\HarvesterMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\IntangibleMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\InternalMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ManSchematicMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MessageLib.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MissionMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ObjControllerMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\PlayerMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ResourceContainerMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StaticMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StructureMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\SystemMessages.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\TangibleMessages.cpp" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MessageLib.h" />
   </ItemGroup>
   <ItemGroup>

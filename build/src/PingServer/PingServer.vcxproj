@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;%(AdditionalIncludeDirectories);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -112,7 +112,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -125,14 +126,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalDependencies>..\NetworkManager\Debug\NetworkManager.lib;..\DatabaseManager\Debug\DatabaseManager.lib;..\Utils\Debug\Utils.lib;..\Common\Debug\Common.lib;winmm.lib;ws2_32.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_program_options-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-gd-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\zlib\Debug\zlibd.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Program Files/MySQL/MySQL Server 5.5/lib;C:/Program Files/MySQL/MySQL Server 5.5/lib/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files/MySQL/MySQL Server 5.5/lib;C:/Program Files/MySQL/MySQL Server 5.5/lib/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\build\vc12\ia32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/PingServer/Debug/PingServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Debug/PingServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -154,7 +156,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -169,7 +172,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -189,7 +193,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/PingServer/Release/PingServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Release/PingServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -211,7 +216,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -226,7 +232,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -246,7 +253,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/PingServer/MinSizeRel/PingServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/MinSizeRel/PingServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -283,7 +291,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -303,7 +312,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/PingServer/RelWithDebInfo/PingServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/RelWithDebInfo/PingServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -366,7 +376,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\PingServer\PingServer.cpp"  />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\PingServer\PingServer.cpp" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\PingServer\PingServer.h" />
   </ItemGroup>
   <ItemGroup>

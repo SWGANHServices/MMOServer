@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -74,7 +74,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\zlib;%(AdditionalIncludeDirectories);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -123,7 +123,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -157,7 +158,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -266,18 +268,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\CompCryptor.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\DispatchClient.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\MessageDispatch.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\MessageFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\NetworkClient.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\NetworkManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\PacketFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\Service.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\Session.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SessionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SocketReadThread.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SocketWriteThread.cpp"  />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\CompCryptor.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\DispatchClient.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\MessageDispatch.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\MessageFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\NetworkClient.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\NetworkManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\PacketFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\Service.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\Session.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SessionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SocketReadThread.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\SocketWriteThread.cpp" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\CompCryptor.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\DispatchClient.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\NetworkManager\Message.h" />

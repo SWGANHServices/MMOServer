@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -74,7 +74,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,7 +104,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -135,7 +136,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -150,7 +152,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -181,7 +184,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -196,7 +200,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -242,7 +247,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -314,16 +320,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\ApplicationService.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\BuildInfo.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Crc.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Event.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\EventDispatcher.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\HashString.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\OutOfBand.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\atMacroString.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\byte_buffer.cc"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Server.cpp"  />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\ApplicationService.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\BuildInfo.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Crc.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Event.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\EventDispatcher.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\HashString.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\OutOfBand.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\atMacroString.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\byte_buffer.cc" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Server.cpp" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\ApplicationService.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\BuildInfo.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Crc.h" />

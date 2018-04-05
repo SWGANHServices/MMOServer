@@ -24,8 +24,8 @@ rem TIMEOUT /T 2
 rem start ZoneServer.exe --ZoneName dathomir
 rem TIMEOUT /T 2
 rem start ZoneServer.exe --ZoneName endor
-TIMEOUT /T 2
-start ZoneServer.exe --ZoneName lok
+rem TIMEOUT /T 2
+rem start ZoneServer.exe --ZoneName lok
 rem TIMEOUT /T 2
 rem start ZoneServer.exe --ZoneName rori
 rem TIMEOUT /T 2

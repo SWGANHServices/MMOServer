@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\lua\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\noise\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tolua++\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.5\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\lua\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\noise\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tolua++\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;%(AdditionalIncludeDirectories);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -112,7 +112,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -125,14 +126,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalDependencies>..\DatabaseManager\Debug\DatabaseManager.lib;..\NetworkManager\Debug\NetworkManager.lib;..\MessageLib\Debug\MessageLib.lib;..\SwgProtocol\Debug\SwgProtocol.lib;..\ScriptEngine\Debug\ScriptEngine.lib;..\anh\Debug\libanh.lib;..\Utils\Debug\Utils.lib;..\Common\Debug\Common.lib;..\..\..\deps\src\lua\lib\lua5.1d.lib;..\..\..\deps\src\noise\win32\Debug\libnoise.lib;..\..\..\deps\src\tolua++\win32\vc10\withLua51_Debug\toluapp.lib;..\..\..\deps\src\noise\win32\Release\libnoise.lib;..\..\..\deps\src\tolua++\win32\vc10\withLua51_Release\toluapp.lib;-lrt;winmm.lib;ws2_32.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_program_options-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-gd-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\zlib\Debug\zlibd.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Program Files/MySQL/MySQL Server 5.5/lib;C:/Program Files/MySQL/MySQL Server 5.5/lib/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files/MySQL/MySQL Server 5.5/lib;C:/Program Files/MySQL/MySQL Server 5.5/lib/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\build\vc12\ia32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/ZoneServer/Debug/ZoneServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Debug/ZoneServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -154,7 +156,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -169,7 +172,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -189,7 +193,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/ZoneServer/Release/ZoneServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Release/ZoneServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -211,7 +216,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB="MYSQL_LIB";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -226,7 +232,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -246,7 +253,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/ZoneServer/MinSizeRel/ZoneServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/MinSizeRel/ZoneServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -283,7 +291,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
@@ -303,7 +312,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/ZoneServer/RelWithDebInfo/ZoneServer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/RelWithDebInfo/ZoneServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -366,264 +376,264 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionState.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionStateEvent.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActiveConversation.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AdminManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ArtisanManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AttackableCreature.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AttackableStaticNpc.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BadgeRegion.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BadgeRegionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Bank.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BankTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BazaarTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Buff.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffDBItem.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffEvent.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BugJar.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuildingFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuildingObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Camp.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CampRegion.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CampTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CellFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CellObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ChanceCube.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharSheetManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharacterBuilderTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharacterLoginHandler.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\City.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CityFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CloningTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CombatManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Container.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ContainerManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ContainerObjectFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Conversation.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ConversationManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftBatch.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSession.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSessionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSessionHelper.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingStation.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingTool.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureEventFunctions.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureSpawnRegion.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CurrentResource.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Datapad.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DatapadFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Deed.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftSchematic.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftSlot.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftWeight.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVAbility.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVCmdProperty.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVPosture.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVQueueSize.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVState.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVSurveySample.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVWeapon.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ElevatorTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EnqueueValidator.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EntertainerManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EquipManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryBase.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryCrate.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FillerNPC.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Firework.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FireworkManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Food.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ForageManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Furniture.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\GroupManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\GroupManagerHandler.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Ham.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HamProperty.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HamService.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HarvesterFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HarvesterObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Heightmap.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HouseFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HouseObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ImageDesignManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Instrument.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\InsuranceTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\IntangibleFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\IntangibleObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Inventory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\InventoryFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Item.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ItemFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ItemTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LairObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LocomotionState.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LocomotionStateEvent.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ManufacturingSchematic.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MedicHandlerHelpers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MedicManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Medicine.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionBag.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MountObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MovingObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NPCObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NonPersistentItemFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NonPersistentNpcFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NpcManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCAdminHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBioEngineerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBountyHunterHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBrawlerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCallbackHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCarbineerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCharacterSheethandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCombatHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCombatMedicHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCommandoHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCommonHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCContactListsHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCrateHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCreatureHandlerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDataTransformhandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDatapadHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDestroyHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDoctorHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCEntertainerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCFencerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceDefenseHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceEnhancementHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceHealingHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceLightsaberHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForcePowerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCGroupHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMarksmanHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMedicHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMissionHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCNpcConversationhandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPetHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPikemanHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPistoleerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPostureHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCRangerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCResourceContainerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCRiflemanHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCScoutHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSkillHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSmugglerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSpatialHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSquadLeaderHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCStructureHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSwordsmanHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCTerasKasiHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCTradeHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjControllerCommandMessage.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjControllerEvent.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Object.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectContainer.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectController.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectControllerCommandMap.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectControllerDispatch.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectFactoryCallback.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVHam.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVPosture.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVState.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PersistentNpcFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerEventFunctions.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerObjectFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerStructure.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerStructureTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PostureEvent.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PostureState.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ProcessValidator.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\QuestGiver.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RadialMenu.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RadialMenuItem.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RegionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RegionObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Resource.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCategory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCollectionCommand.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCollectionManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceContainer.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceContainerFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceType.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SchematicGroup.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SchematicManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Scout.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ScoutManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SendSystemMailMessage.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Shuttle.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ShuttleFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Skill.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SkillManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpatialIndexManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpatialIndexMessagingServices.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpawnRegion.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpawnRegionFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StateManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StateRules.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StaticObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Stomach.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerCallbackHandler.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerCommandMap.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerUIManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SurveyTool.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TangibleFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TangibleObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Terminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TerminalFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TicketCollector.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TicketCollectorFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Trade.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TradeManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Trainer.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelMapHandler.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelTerminal.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelTicket.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TreasuryManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Tutorial.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIButton.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UICustomWindows.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIDropdownBox.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIElement.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIInputBox.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIInputField.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIListBox.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIMessageBox.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UITransferBox.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIWindow.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\VehicleController.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\VehicleControllerFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WaypointFactory.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WaypointObject.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Weapon.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Wearable.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WeightsBatch.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldConfig.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManager.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerDataBaseHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerNPCHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerObjectHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerPlayerHandlers.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Zmap.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ZoneServer.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\noiseutils.cpp"  />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\nonPersistantObjectFactory.cpp"  />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionState.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionStateEvent.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActiveConversation.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AdminManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ArtisanManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AttackableCreature.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AttackableStaticNpc.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BadgeRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BadgeRegionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Bank.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BankTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BazaarTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Buff.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffDBItem.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffEvent.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuffManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BugJar.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuildingFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\BuildingObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Camp.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CampRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CampTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CellFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CellObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ChanceCube.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharSheetManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharacterBuilderTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CharacterLoginHandler.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\City.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CityFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CloningTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CombatManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Container.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ContainerManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ContainerObjectFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Conversation.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ConversationManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftBatch.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSession.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSessionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingSessionHelper.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingStation.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CraftingTool.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureEventFunctions.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CreatureSpawnRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\CurrentResource.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Datapad.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DatapadFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Deed.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftSchematic.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftSlot.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\DraftWeight.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVAbility.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVCmdProperty.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVPosture.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVQueueSize.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVState.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVSurveySample.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EVWeapon.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ElevatorTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EnqueueValidator.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EntertainerManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\EquipManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryBase.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryCrate.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FactoryObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FillerNPC.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Firework.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\FireworkManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Food.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ForageManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Furniture.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\GroupManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\GroupManagerHandler.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Ham.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HamProperty.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HamService.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HarvesterFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HarvesterObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Heightmap.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HouseFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\HouseObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ImageDesignManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Instrument.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\InsuranceTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\IntangibleFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\IntangibleObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Inventory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\InventoryFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Item.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ItemFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ItemTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LairObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LocomotionState.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\LocomotionStateEvent.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ManufacturingSchematic.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MedicHandlerHelpers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MedicManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Medicine.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionBag.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MissionTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MountObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\MovingObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NPCObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NonPersistentItemFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NonPersistentNpcFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\NpcManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCAdminHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBioEngineerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBountyHunterHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCBrawlerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCallbackHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCarbineerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCharacterSheethandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCombatHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCombatMedicHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCommandoHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCommonHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCContactListsHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCrateHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCCreatureHandlerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDataTransformhandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDatapadHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDestroyHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCDoctorHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCEntertainerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCFencerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceDefenseHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceEnhancementHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceHealingHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForceLightsaberHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCForcePowerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCGroupHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMarksmanHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMedicHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCMissionHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCNpcConversationhandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPetHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPikemanHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPistoleerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCPostureHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCRangerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCResourceContainerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCRiflemanHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCScoutHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSkillHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSmugglerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSpatialHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSquadLeaderHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCStructureHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCSwordsmanHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCTerasKasiHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\OCTradeHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjControllerCommandMessage.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjControllerEvent.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Object.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectContainer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectController.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectControllerCommandMap.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectControllerDispatch.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ObjectFactoryCallback.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVHam.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVPosture.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PVState.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PersistentNpcFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerEventFunctions.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerObjectFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerStructure.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PlayerStructureTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PostureEvent.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\PostureState.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ProcessValidator.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\QuestGiver.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RadialMenu.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RadialMenuItem.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RegionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\RegionObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Resource.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCategory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCollectionCommand.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceCollectionManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceContainer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceContainerFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ResourceType.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SchematicGroup.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SchematicManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Scout.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ScoutManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SendSystemMailMessage.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Shuttle.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ShuttleFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Skill.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SkillManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpatialIndexManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpatialIndexMessagingServices.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpawnRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SpawnRegionFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StateManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StateRules.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StaticObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Stomach.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerCallbackHandler.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerCommandMap.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\StructureManagerUIManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\SurveyTool.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TangibleFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TangibleObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Terminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TerminalFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TicketCollector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TicketCollectorFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Trade.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TradeManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Trainer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelMapHandler.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelTerminal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TravelTicket.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\TreasuryManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Tutorial.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIButton.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UICustomWindows.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIDropdownBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIElement.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIInputBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIInputField.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIListBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIMessageBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UITransferBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\UIWindow.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\VehicleController.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\VehicleControllerFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WaypointFactory.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WaypointObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Weapon.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Wearable.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WeightsBatch.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldConfig.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManager.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerDataBaseHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerNPCHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerObjectHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\WorldManagerPlayerHandlers.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\Zmap.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ZoneServer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\noiseutils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\nonPersistantObjectFactory.cpp" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\AbstractState.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionState.h" />
     <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\ZoneServer\ActionStateEvent.h" />
