@@ -546,7 +546,8 @@ void ChatManager::handleDatabaseJobComplete(void* ref,DatabaseResult* result)
             bIgnore = (it != ignoreList.end());
             if (bIgnore)
             {
-                mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  asyncContainer->mRequestId);
+               // mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  asyncContainer->mRequestId);
+				mDatabase->ExecuteSqlAsync(NULL, NULL, "DELETE FROM chat_mail WHERE id=%u", asyncContainer->mRequestId);
                 
             }
         }
@@ -2495,7 +2496,8 @@ void ChatManager::_processDeletePersistentMessage(Message* message,DispatchClien
 
     message->getUint8();             // unknown, attachments ?
 
-    mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  dbMailId);
+    //mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  dbMailId);
+	mDatabase->ExecuteSqlAsync(NULL, NULL, "DELETE FROM chat_mail WHERE id=%u", asyncContainer->mRequestId);
 
     // acknowledge
     gMessageFactory->StartMessage();
