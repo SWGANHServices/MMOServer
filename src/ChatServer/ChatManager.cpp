@@ -940,7 +940,7 @@ void ChatManager::_processClusterClientDisconnect(Message* message,DispatchClien
         }
         else
         {
-            DLOG(INFO) << "ChatManager:: Can't find player " << player->getName().getAnsi() << "in planet channel";
+            DLOG(INFO) << "ChatManager:: Can't find player " << player->getName().getAnsi() << " in planet channel";
         }
     }
     else
