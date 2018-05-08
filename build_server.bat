@@ -95,7 +95,7 @@ set SKIPHEIGHTMAPS=false
 set DEPENDENCIESONLY=false
 set BUILDNUMBER=0
 set BUILD_ERROR=false
-set HALT_ON_ERROR=true
+set HALT_ON_ERROR=false
 set halt=
 
 goto :eof

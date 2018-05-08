@@ -1,0 +1,33 @@
+
+SWG:ANH Database Installer Help
+
+	/install [option]    		  Install the SWG:ANH Database Schema
+			all                   Install the full Database
+			swganh                Install the swganh Database
+			config                Install the Config Database
+			logging               Install the Logging Database
+			astromech             Install the AstroMech Database
+			archive               Install the Archive Database
+		
+		/backup [option]	      Backup the SWG:ANH Database Schema
+			all                   Backup the full suite of SWG:ANH Databases
+		    swganh                Backup the swganh Database
+			config                Backup the Config Database
+		    logging               Backup the Logging Database
+		    astromech             Backup the AstroMech Database
+		    archive               Backup the Archive Databse
+		/update                 Update the database
+		
+		/checkdbversion         Check the database version
+		
+		/checkscriptversion     Check the script version
+		
+		/clean                  Clean the Databases
+		
+		/generateresources      Generate the initial resource spawn
+		
+		/shiftresourcespawn     Shift the current resource spawn
+		
+		/resetglobaltimer       Reset the Global Server Timer
+		
+		/checkconfig            Check the config file values
