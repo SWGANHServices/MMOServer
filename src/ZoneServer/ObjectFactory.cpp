@@ -281,10 +281,10 @@ void ObjectFactory::requestNewTravelTicket(ObjectFactoryCallback* ofCallback,Tic
 
     stringstream query_stream;
     query_stream << "SELECT "<<mDatabase->galaxy() << ".sf_TravelTicketCreate("
-				<< "'" << srcPlanet << "', '" << ticketProperties.srcPoint->descriptor << "', "
-				<< "'" << dstPlanet << "', '" << ticketProperties.dstPoint->descriptor << "', "
-                << parentId << "," << 0.0f << "," << 0.0f << ","
-                << 0.0f << "," << planetId << ")";
+                 << "'" << srcPlanet << "', '" << ticketProperties.srcPoint->descriptor << "', "
+                 << "'" << dstPlanet << "', '" << ticketProperties.dstPoint->descriptor << "', "
+                 << parentId << "," << 0.0f << "," << 0.0f << ","
+                 << 0.0f << "," << planetId << ")";
 
 
 

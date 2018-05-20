@@ -7,3 +7,4 @@ AddMMOServerExecutable(PingServer
         Utils
         Common
 )
+TARGET_LINK_LIBRARIES(PingServer "-ltbb -lrt -lpthread")

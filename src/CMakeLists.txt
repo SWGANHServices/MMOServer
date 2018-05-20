@@ -20,3 +20,4 @@ ADD_SUBDIRECTORY(SwgProtocol)
 ADD_SUBDIRECTORY(Utils)
 ADD_SUBDIRECTORY(Common)
 endif()
+

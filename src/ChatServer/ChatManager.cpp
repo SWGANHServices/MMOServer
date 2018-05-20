@@ -546,8 +546,7 @@ void ChatManager::handleDatabaseJobComplete(void* ref,DatabaseResult* result)
             bIgnore = (it != ignoreList.end());
             if (bIgnore)
             {
-               // mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  asyncContainer->mRequestId);
-				mDatabase->executeProcedureAsync(NULL, NULL, "DELETE FROM chat_mail WHERE id=%u", asyncContainer->mRequestId);
+                mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  asyncContainer->mRequestId);
                 
             }
         }
@@ -940,7 +939,7 @@ void ChatManager::_processClusterClientDisconnect(Message* message,DispatchClien
         }
         else
         {
-            DLOG(INFO) << "ChatManager:: Can't find player " << player->getName().getAnsi() << " in planet channel";
+            DLOG(INFO) << "ChatManager:: Can't find player " << player->getName().getAnsi() << "in planet channel";
         }
     }
     else
@@ -2496,8 +2495,7 @@ void ChatManager::_processDeletePersistentMessage(Message* message,DispatchClien
 
     message->getUint8();             // unknown, attachments ?
 
-    //mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  dbMailId);
-	mDatabase->executeProcedureAsync(NULL, NULL, "DELETE FROM chat_mail WHERE id=%u");
+    mDatabase->executeProcedureAsync(NULL, NULL, "CALL %s.sp_DeleteMail(%u);", mDatabase->galaxy(),  dbMailId);
 
     // acknowledge
     gMessageFactory->StartMessage();
