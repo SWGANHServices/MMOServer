@@ -40,7 +40,7 @@ USE swganh;
 DROP TABLE IF EXISTS `vehicle_families`;
 CREATE TABLE `vehicle_families` (
   `id` bigint(20) NOT NULL,
-  `vehicle_family` char(255) default NULL,
+  `vehicle_family` varchar(255) default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

@@ -53,7 +53,7 @@ CREATE TABLE `items` (
   `y` float NOT NULL default '0',
   `z` float NOT NULL default '0',
   `planet_id` int(2) NOT NULL default '0',
-  `customName` char(255) default NULL,
+  `customName` varchar(255) default NULL,
   `maxCondition` int(11) unsigned NOT NULL default '100',
   `damage` int(11) unsigned NOT NULL default '0',
   `dynamicInt32` int(11) unsigned NOT NULL default '0',

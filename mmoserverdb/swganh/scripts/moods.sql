@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `moods`;
 CREATE TABLE `moods` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(64) NOT NULL,
+  `name` varchar(64) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=188 DEFAULT CHARSET=utf8;
 

@@ -40,7 +40,7 @@ USE swganh;
 DROP TABLE IF EXISTS `schematic_groups`;
 CREATE TABLE `schematic_groups` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `name` char(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `pk_schematicgroups_name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

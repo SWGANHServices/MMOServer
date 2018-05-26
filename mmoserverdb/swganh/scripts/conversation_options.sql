@@ -41,8 +41,8 @@ DROP TABLE IF EXISTS `conversation_options`;
 CREATE TABLE `conversation_options` (
   `id` int(11) unsigned NOT NULL auto_increment,
   `customText` varchar(512) default NULL,
-  `stf_file` char(255) default NULL,
-  `stf_variable` char(255) default NULL,
+  `stf_file` varchar(255) default NULL,
+  `stf_variable` varchar(255) default NULL,
   `event` int(11) unsigned NOT NULL default '0',
   `pageLink` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),

@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `config_message_routes`;
 CREATE TABLE `config_message_routes` (
   `messageId` int(32) NOT NULL default '0',
   `processId` int(32) unsigned NOT NULL default '0',
-  `description` char(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
   PRIMARY KEY  (`messageId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

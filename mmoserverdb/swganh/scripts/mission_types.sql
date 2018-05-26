@@ -40,7 +40,7 @@ USE swganh;
 DROP TABLE IF EXISTS `mission_types`;
 CREATE TABLE `mission_types` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `type` char(128) NOT NULL,
+  `type` varchar(128) NOT NULL,
   `content` int(10) unsigned NOT NULL DEFAULT '0',
   `name` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)

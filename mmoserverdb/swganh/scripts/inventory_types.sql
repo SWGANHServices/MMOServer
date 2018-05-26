@@ -40,10 +40,10 @@ use swganh;
 DROP TABLE IF EXISTS `inventory_types`;
 CREATE TABLE `inventory_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `object_string` char(255) NOT NULL default 'object/tangible/inventory/shared_character_inventory.iff',
+  `object_string` varchar(255) NOT NULL default 'object/tangible/inventory/shared_character_inventory.iff',
   `slots` int(11) unsigned NOT NULL default '50',
-  `name` char(255) NOT NULL default 'inventory',
-  `file` char(255) NOT NULL default 'item_n',
+  `name` varchar(255) NOT NULL default 'inventory',
+  `file` varchar(255) NOT NULL default 'item_n',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 

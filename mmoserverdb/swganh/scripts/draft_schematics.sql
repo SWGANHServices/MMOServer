@@ -39,7 +39,7 @@ USE swganh;
 
 DROP TABLE IF EXISTS `draft_schematics`;
 CREATE TABLE `draft_schematics` (
-  `object_string` char(255) NOT NULL,
+  `object_string` varchar(255) NOT NULL,
   `group_id` int(11) unsigned NOT NULL DEFAULT '1',
   `weightsbatch_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `complexity` int(11) unsigned NOT NULL DEFAULT '1',

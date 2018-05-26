@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `cities`;
 CREATE TABLE `cities` (
   `id` bigint(20) unsigned NOT NULL default '0',
-  `city_name` char(255) NOT NULL default 'city_name',
+  `city_name` varchar(255) NOT NULL default 'city_name',
   `city_region` int(11) unsigned NOT NULL default '0',
   `planet_id` int(2) NOT NULL default '0',
   PRIMARY KEY  (`id`),

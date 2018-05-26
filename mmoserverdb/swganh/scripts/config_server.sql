@@ -45,9 +45,9 @@ USE swganh;
 DROP TABLE IF EXISTS `config_server`;
 CREATE TABLE `config_server` (
   `id` bigint(20) NOT NULL,
-  `server_name` char(255) NOT NULL,
+  `server_name` varchar(255) NOT NULL,
   `config_attributes_id` bigint(20) NOT NULL,
-  `value` char(255) NOT NULL,
+  `value` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_config_server_config_attributes` (`config_attributes_id`),
   CONSTRAINT `fk_config_server_config_attributes` FOREIGN KEY (`config_attributes_id`) REFERENCES `config_server_attributes` (`id`) ON DELETE CASCADE ON UPDATE CASCADE

@@ -50,11 +50,11 @@ CREATE TABLE `terminals` (
   `y` float NOT NULL default '0',
   `z` float NOT NULL default '0',
   `planet_id` int(2) NOT NULL default '0',
-  `dataStr` char(255) default NULL,
+  `dataStr` varchar(255) default NULL,
   `dataInt1` int(11) unsigned NOT NULL default '0',
   `dataInt2` int(11) unsigned NOT NULL default '0',
   `dataInt3` int(11) unsigned NOT NULL default '0',
-  `customName` char(255) default NULL,
+  `customName` varchar(255) default NULL,
   PRIMARY KEY  (`id`),
   KEY `fk_st_obj_planet_planet` (`planet_id`),
   KEY `fk_terminals_type_type` (`terminal_type`)

@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `csr_categories`;
 CREATE TABLE `csr_categories` (
   `category_id` int(10) unsigned NOT NULL auto_increment,
-  `name` char(45) NOT NULL default '""',
+  `name` varchar(45) NOT NULL default '""',
   PRIMARY KEY  (`category_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
 

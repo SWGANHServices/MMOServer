@@ -73,7 +73,7 @@ CREATE TABLE `character_attributes` (
   `battlefatigue` int(6) unsigned NOT NULL default '0' COMMENT 'Character - Battle Fatigue',
   `posture` int(3) unsigned NOT NULL default '0',
   `moodId` int(11) unsigned NOT NULL default '0',
-  `title` char(255) default NULL,
+  `title` varchar(255) default NULL,
   `character_flags` int(11) unsigned NOT NULL default '0',
   `states` bigint(20) unsigned NOT NULL default '0',
   `language` int(11) unsigned NOT NULL default '1',

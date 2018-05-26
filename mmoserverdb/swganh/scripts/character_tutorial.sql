@@ -42,7 +42,7 @@ CREATE TABLE  `swganh`.`character_tutorial` (
   `character_id` bigint(20) unsigned NOT NULL,
   `character_state` int(11) unsigned NOT NULL default '0',
   `character_substate` int(11) unsigned NOT NULL default '0',
-  `starting_profession` char(64) default NULL COMMENT 'Character Starting Profession',
+  `starting_profession` varchar(64) default NULL COMMENT 'Character Starting Profession',
   PRIMARY KEY  (`character_id`,`character_state`),
   CONSTRAINT `fk_charactertutorial` FOREIGN KEY (`character_id`) REFERENCES `characters` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -40,7 +40,7 @@ USE swganh;
 DROP TABLE IF EXISTS `draft_experiment_groups`;
 CREATE TABLE `draft_experiment_groups` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) NOT NULL default 'exp',
+  `name` varchar(255) NOT NULL default 'exp',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8;
 

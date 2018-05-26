@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `commerce_bazaar`;
 CREATE TABLE `commerce_bazaar` (
   `bazaar_id` bigint(11) unsigned NOT NULL,
-  `bazaar_string` char(128) NOT NULL,
+  `bazaar_string` varchar(128) NOT NULL,
   `region_id` int(2) NOT NULL,
   `planet_id` int(2) NOT NULL,
   KEY `region_id` (`region_id`),

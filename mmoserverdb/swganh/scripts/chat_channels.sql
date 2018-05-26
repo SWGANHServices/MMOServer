@@ -40,12 +40,12 @@ use swganh;
 DROP TABLE IF EXISTS `chat_channels`;
 CREATE TABLE `chat_channels` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(64) NOT NULL default 'name',
+  `name` varchar(64) NOT NULL default 'name',
   `private` tinyint(1) unsigned NOT NULL default '0',
   `moderated` tinyint(1) unsigned NOT NULL default '0',
-  `creator` char(32) NOT NULL,
-  `owner` char(32) NOT NULL,
-  `title` char(255) default NULL,
+  `creator` varchar(32) NOT NULL,
+  `owner` varchar(32) NOT NULL,
+  `title` varchar(255) default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=utf8;
 

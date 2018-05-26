@@ -40,8 +40,8 @@ use swganh;
 DROP TABLE IF EXISTS `starting_attributes`;
 CREATE TABLE `starting_attributes` (
   `id` int(10) unsigned NOT NULL auto_increment,
-  `species` char(64) NOT NULL,
-  `profession` char(64) NOT NULL,
+  `species` varchar(64) NOT NULL,
+  `profession` varchar(64) NOT NULL,
   `health` int(10) unsigned NOT NULL,
   `strength` int(10) unsigned NOT NULL,
   `constitution` int(10) unsigned NOT NULL,

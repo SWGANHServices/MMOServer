@@ -1734,7 +1734,7 @@ DROP TABLE IF EXISTS `draft_schematic_manufacture_defaults`;
 CREATE TABLE `draft_schematic_manufacture_defaults` (
   `schematic_id` int(11) unsigned NOT NULL default '0',
   `attribute_id` int(11) unsigned NOT NULL default '0',
-  `attribute_value` char(255) NOT NULL default '0.0',
+  `attribute_value` varchar(255) NOT NULL default '0.0',
   `attribute_order` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`schematic_id`,`attribute_id`),
   KEY `draft_man_defaults_att` (`attribute_id`)

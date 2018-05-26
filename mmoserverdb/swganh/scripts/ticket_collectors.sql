@@ -42,7 +42,7 @@ DROP TABLE IF EXISTS `ticket_collectors`;
 CREATE TABLE `ticket_collectors` (
   `id` bigint(20) unsigned NOT NULL,
   `parent_id` bigint(20) unsigned NOT NULL default '0',
-  `object_string` char(255) NOT NULL default 'object/tangible/travel/ticket_collector/shared_ticket_collector.iff',
+  `object_string` varchar(255) NOT NULL default 'object/tangible/travel/ticket_collector/shared_ticket_collector.iff',
   `oX` float NOT NULL default '0',
   `oY` float NOT NULL default '0',
   `oZ` float NOT NULL default '0',
@@ -51,9 +51,9 @@ CREATE TABLE `ticket_collectors` (
   `y` float NOT NULL default '0',
   `z` float NOT NULL default '0',
   `planet_id` int(2) NOT NULL default '0',
-  `name` char(255) NOT NULL default 'ticket_collector_name',
-  `file` char(255) NOT NULL default 'travel',
-  `portDescriptor` char(255) NOT NULL COMMENT 'must match the ticket terminal datastr descriptor',
+  `name` varchar(255) NOT NULL default 'ticket_collector_name',
+  `file` varchar(255) NOT NULL default 'travel',
+  `portDescriptor` varchar(255) NOT NULL COMMENT 'must match the ticket terminal datastr descriptor',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

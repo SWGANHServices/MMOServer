@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `building_families`;
 CREATE TABLE `building_families` (
   `id` int(10) unsigned NOT NULL auto_increment,
-  `family_name` char(255) NOT NULL default '""',
+  `family_name` varchar(255) NOT NULL default '""',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 

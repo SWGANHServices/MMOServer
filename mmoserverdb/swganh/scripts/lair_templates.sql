@@ -41,11 +41,11 @@ use swganh;
 DROP TABLE IF EXISTS `lair_templates`;
 CREATE TABLE `lair_templates` (
   `id` bigint(20) NOT NULL,
-  `lair_object_string` char(255) default NULL,
-  `stf_name` char(255) default NULL,
-  `stf_file` char(255) default NULL,
-  `stf_detail_name` char(255) default NULL,
-  `stf_detail_file` char(255) default NULL,
+  `lair_object_string` varchar(255) default NULL,
+  `stf_name` varchar(255) default NULL,
+  `stf_file` varchar(255) default NULL,
+  `stf_detail_name` varchar(255) default NULL,
+  `stf_detail_file` varchar(255) default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

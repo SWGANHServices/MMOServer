@@ -39,7 +39,7 @@ use swganh;
 
 DROP TABLE IF EXISTS `namegen_firstname`;
 CREATE TABLE `namegen_firstname` (
-  `firstname` char(16) NOT NULL default '',
+  `firstname` varchar(16) NOT NULL default '',
   `species` int(8) unsigned NOT NULL default '0',
   `gender` tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (`firstname`),

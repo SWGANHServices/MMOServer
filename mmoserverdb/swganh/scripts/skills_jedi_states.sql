@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `skills_jedi_states`;
 CREATE TABLE `skills_jedi_states` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 

@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `vehicle_type_attributes`;
 CREATE TABLE `vehicle_type_attributes` (
   `vehicle_types_id` bigint(20) NOT NULL,
   `attribute_id` int(11) NOT NULL,
-  `attribute_value` char(255) default NULL,
+  `attribute_value` varchar(255) default NULL,
   `attribute_order` int(11) default NULL,
   PRIMARY KEY  (`vehicle_types_id`,`attribute_id`),
   KEY `fk_vehicle_type_attributes_vehicle_types` (`vehicle_types_id`),

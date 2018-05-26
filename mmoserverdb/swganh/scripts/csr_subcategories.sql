@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `csr_subcategories`;
 CREATE TABLE `csr_subcategories` (
   `subcategory_index` int(10) unsigned NOT NULL auto_increment,
-  `name` char(45) NOT NULL default '""',
+  `name` varchar(45) NOT NULL default '""',
   `category_id` int(10) unsigned NOT NULL,
   `subcategory_id` int(10) unsigned NOT NULL,
   PRIMARY KEY  USING BTREE (`subcategory_index`),

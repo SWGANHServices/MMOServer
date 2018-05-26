@@ -40,8 +40,8 @@ USE swganh;
 DROP TABLE IF EXISTS `galaxy`;
 CREATE TABLE `galaxy` (
   `galaxy_id` int(5) NOT NULL auto_increment COMMENT 'Server ID',
-  `name` char(32) NOT NULL default '' COMMENT 'Server Name',
-  `address` char(16) NOT NULL default '' COMMENT 'Server IP Address',
+  `name` varchar(32) NOT NULL default '' COMMENT 'Server Name',
+  `address` varchar(16) NOT NULL default '' COMMENT 'Server IP Address',
   `port` int(8) NOT NULL default '0' COMMENT 'Server Listen Port',
   `pingport` int(8) default NULL COMMENT 'Server PING port',
   `population` int(4) NOT NULL default '0' COMMENT 'Server Population (Administrative Feature)',

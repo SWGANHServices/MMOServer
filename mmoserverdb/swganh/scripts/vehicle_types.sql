@@ -41,11 +41,11 @@ DROP TABLE IF EXISTS `vehicle_types`;
 CREATE TABLE `vehicle_types` (
   `id` bigint(20) NOT NULL,
   `vehicle_families_id` bigint(20) default NULL,
-  `vehicle_object_string` char(255) default NULL,
-  `vehicle_itno_object_string` char(255) default NULL,
-  `vehicle_name_file` char(255) default NULL,
-  `vehicle_detail_file` char(255) default NULL,
-  `vehicle_name` char(255) NOT NULL,
+  `vehicle_object_string` varchar(255) default NULL,
+  `vehicle_itno_object_string` varchar(255) default NULL,
+  `vehicle_name_file` varchar(255) default NULL,
+  `vehicle_detail_file` varchar(255) default NULL,
+  `vehicle_name` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`),
   KEY `fk_vehicle_types_vehicle_families` (`vehicle_families_id`),
   CONSTRAINT `fk_vehicle_types_vehicle_families` FOREIGN KEY (`vehicle_families_id`) REFERENCES `vehicle_families` (`id`) ON DELETE CASCADE ON UPDATE CASCADE

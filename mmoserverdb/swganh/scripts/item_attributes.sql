@@ -42,7 +42,7 @@ DROP TABLE IF EXISTS `item_attributes`;
 CREATE TABLE `item_attributes` (
   `item_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `attribute_id` int(11) unsigned NOT NULL DEFAULT '0',
-  `value` char(255) NOT NULL DEFAULT '""',
+  `value` varchar(255) NOT NULL DEFAULT '""',
   `order` int(11) unsigned NOT NULL DEFAULT '0',
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   PRIMARY KEY USING BTREE(`id`),

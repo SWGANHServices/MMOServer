@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `stf_variable`;
 CREATE TABLE `stf_variable` (
   `id` int(11) unsigned NOT NULL default '0',
-  `name` char(255) NOT NULL default '',
+  `name` varchar(255) NOT NULL default '',
   `stf_file_id_1` int(11) unsigned NOT NULL default '0' COMMENT 'name',
   `stf_file_id_2` int(11) unsigned default NULL COMMENT 'details',
   PRIMARY KEY  (`id`),

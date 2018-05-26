@@ -45,12 +45,12 @@ USE swganh;
 DROP TABLE IF EXISTS `config_process_list`;
 CREATE TABLE `config_process_list` (
   `id` int(10) unsigned NOT NULL DEFAULT '0',
-  `address` char(16) NOT NULL DEFAULT '127.0.0.1',
+  `address` varchar(16) NOT NULL DEFAULT '127.0.0.1',
   `port` int(10) unsigned NOT NULL DEFAULT '0',
   `status` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '0=offline, 1=loading, 2=online, 3=locked',
   `active` int(10) unsigned NOT NULL DEFAULT '0',
-  `name` char(32) NOT NULL DEFAULT '',
-  `description` char(255) NOT NULL DEFAULT '',
+  `name` varchar(32) NOT NULL DEFAULT '',
+  `description` varchar(255) NOT NULL DEFAULT '',
   `serverstartID` bigint(20) unsigned NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

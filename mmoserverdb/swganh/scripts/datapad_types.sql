@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `datapad_types`;
 CREATE TABLE `datapad_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `object_string` char(255) NOT NULL default 'object/tangible/datapad/shared_character_datapad.iff',
-  `name` char(255) NOT NULL default 'datapad',
-  `file` char(255) NOT NULL default 'item_n',
+  `object_string` varchar(255) NOT NULL default 'object/tangible/datapad/shared_character_datapad.iff',
+  `name` varchar(255) NOT NULL default 'datapad',
+  `file` varchar(255) NOT NULL default 'item_n',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_datapadtypes_objstr` (`object_string`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;

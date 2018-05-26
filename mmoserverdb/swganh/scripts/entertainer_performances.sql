@@ -39,12 +39,12 @@ use swganh;
 
 DROP TABLE IF EXISTS `entertainer_performances`;
 CREATE TABLE `entertainer_performances` (
-  `performanceName` char(32) default NULL,
+  `performanceName` varchar(32) default NULL,
   `instrumentAudioId` int(11) default NULL,
-  `requiredSong` char(64) default NULL,
-  `requiredInstrument` char(64) default NULL,
+  `requiredSong` varchar(64) default NULL,
+  `requiredInstrument` varchar(64) default NULL,
   `InstrumenType` int(11) default NULL,
-  `requiredDance` char(64) default NULL,
+  `requiredDance` varchar(64) default NULL,
   `danceVisualId` int(11) default NULL,
   `actionPointPerLoop` int(11) default NULL,
   `loopDuration` int(11) default NULL,
@@ -53,7 +53,7 @@ CREATE TABLE `entertainer_performances` (
   `florushXpMod` int(11) default NULL,
   `healMindWound` int(11) default NULL,
   `healShockWound` int(11) default NULL,
-  `requiredSkillMod` char(32) default NULL,
+  `requiredSkillMod` varchar(32) default NULL,
   `mainloop` int(11) default NULL,
   `MusicVisualId` int(11) default NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

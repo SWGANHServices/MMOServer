@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `badge_categories`;
 CREATE TABLE `badge_categories` (
   `Id` int(11) unsigned NOT NULL default '0',
-  `name` char(255) default NULL,
+  `name` varchar(255) default NULL,
   PRIMARY KEY  (`Id`),
   UNIQUE KEY `pk_name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;

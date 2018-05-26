@@ -45,8 +45,8 @@ USE swganh;
 DROP TABLE IF EXISTS `config_server_attributes`;
 CREATE TABLE `config_server_attributes` (
   `id` bigint(20) NOT NULL,
-  `attribute` char(255) DEFAULT NULL,
-  `attribute_description` char(255) DEFAULT NULL,
+  `attribute` varchar(255) DEFAULT NULL,
+  `attribute_description` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

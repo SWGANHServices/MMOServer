@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `name_reserved`;
 CREATE TABLE `name_reserved` (
   `id` int(10) unsigned NOT NULL auto_increment,
-  `name` char(32) NOT NULL,
+  `name` varchar(32) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 

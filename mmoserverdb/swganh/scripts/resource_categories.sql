@@ -40,8 +40,8 @@ use swganh;
 DROP TABLE IF EXISTS `resource_categories`;
 CREATE TABLE `resource_categories` (
   `id` int(11) unsigned NOT NULL default '0',
-  `name` char(255) default NULL,
-  `typename` char(255) NOT NULL,
+  `name` varchar(255) default NULL,
+  `typename` varchar(255) NOT NULL,
   `parent_id` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_resourcecategories_typename` (`typename`)

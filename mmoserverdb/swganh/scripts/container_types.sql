@@ -40,10 +40,10 @@ use swganh;
 DROP TABLE IF EXISTS `container_types`;
 CREATE TABLE `container_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `object_string` char(255) NOT NULL,
-  `name` char(255) NOT NULL default 'unknown',
-  `file` char(255) NOT NULL default 'container_n',
-  `details_file` char(255) NOT NULL default 'container_detail',
+  `object_string` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL default 'unknown',
+  `file` varchar(255) NOT NULL default 'container_n',
+  `details_file` varchar(255) NOT NULL default 'container_detail',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_containers_objstr` (`object_string`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;

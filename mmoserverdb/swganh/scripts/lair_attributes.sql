@@ -43,7 +43,7 @@ CREATE TABLE `lair_attributes` (
   `id` int(11) NOT NULL,
   `lair_id` bigint(20) NOT NULL,
   `attribute_id` int(11) default NULL,
-  `value` char(255) default NULL,
+  `value` varchar(255) default NULL,
   `order` int(11) default NULL,
   PRIMARY KEY  (`lair_id`,`id`),
   KEY `fk_lair_attributes_lairs` (`lair_id`),

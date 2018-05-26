@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `draft_slots`;
 CREATE TABLE `draft_slots` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `component_file` char(255) DEFAULT NULL,
-  `component_name` char(255) DEFAULT NULL,
-  `resource_name` char(255) DEFAULT NULL,
+  `component_file` varchar(255) DEFAULT NULL,
+  `component_name` varchar(255) DEFAULT NULL,
+  `resource_name` varchar(255) DEFAULT NULL,
   `amount` int(11) unsigned NOT NULL DEFAULT '10',
   `optional` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `type` tinyint(3) unsigned NOT NULL DEFAULT '0',

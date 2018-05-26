@@ -42,7 +42,7 @@ DROP TABLE IF EXISTS `non_persistent_npc_attributes`;
 CREATE TABLE `non_persistent_npc_attributes` (
   `npc_id` bigint(20) unsigned NOT NULL default '0',
   `attribute_id` int(11) unsigned NOT NULL default '0',
-  `value` char(255) NOT NULL default '""',
+  `value` varchar(255) NOT NULL default '""',
   `order` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`npc_id`,`attribute_id`),
   KEY `fk_non_per_npc_att_att` (`attribute_id`),

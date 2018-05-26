@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `item_families`;
 CREATE TABLE `item_families` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `family_name` char(255) DEFAULT NULL,
+  `family_name` varchar(255) DEFAULT NULL,
   `crate_size` int(10) unsigned NOT NULL DEFAULT '25',
   `crate_type` int(10) unsigned NOT NULL DEFAULT '2772',
   PRIMARY KEY (`id`),

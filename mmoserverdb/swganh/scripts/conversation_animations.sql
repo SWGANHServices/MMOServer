@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `conversation_animations`;
 CREATE TABLE `conversation_animations` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) NOT NULL default 'none',
+  `name` varchar(255) NOT NULL default 'none',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
 

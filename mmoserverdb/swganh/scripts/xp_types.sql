@@ -41,8 +41,8 @@ DROP TABLE IF EXISTS `xp_types`;
 CREATE TABLE `xp_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
   `def_cap` int(11) unsigned NOT NULL,
-  `xp_type` char(255) NOT NULL,
-  `xp_type_ex` char(255) NOT NULL,
+  `xp_type` varchar(255) NOT NULL,
+  `xp_type_ex` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_xptypes_name` (`xp_type`)
 ) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;

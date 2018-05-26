@@ -40,8 +40,8 @@ use swganh;
 DROP TABLE IF EXISTS `planet`;
 CREATE TABLE `planet` (
   `planet_id` int(2) NOT NULL COMMENT 'Planet ID',
-  `name` char(32) NOT NULL COMMENT 'Planet Name',
-  `terrain_file` char(255) NOT NULL default 'terrain/' COMMENT 'Planet Terrain File',
+  `name` varchar(32) NOT NULL COMMENT 'Planet Name',
+  `terrain_file` varchar(255) NOT NULL default 'terrain/' COMMENT 'Planet Terrain File',
   PRIMARY KEY  (`planet_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

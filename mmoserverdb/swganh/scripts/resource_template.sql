@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `resource_template`;
 CREATE TABLE `resource_template` (
   `id` int(11) unsigned NOT NULL,
   `category_id` int(11) unsigned NOT NULL default '1',
-  `namefile_name` char(255) default NULL,
+  `namefile_name` varchar(255) default NULL,
   `type_name` varchar(128) character set latin1 NOT NULL,
   `type_swg` varchar(128) character set latin1 NOT NULL,
   `er_min` int(4) default NULL,

@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `mission_text`;
 CREATE TABLE `mission_text` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `mission_type` int(10) unsigned NOT NULL,
-  `mission_name` char(9) NOT NULL,
+  `mission_name` varchar(9) NOT NULL,
   `mission_text` text NOT NULL,
   PRIMARY KEY  (`id`),
   KEY `FK_mission_text1_1` (`mission_type`),

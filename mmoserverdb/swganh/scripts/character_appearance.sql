@@ -161,10 +161,10 @@ CREATE TABLE `character_appearance` (
   `70FF` int(10) unsigned DEFAULT NULL COMMENT 'Side Beard Type (Ithorinan)',
   `ABFF` int(10) unsigned DEFAULT NULL COMMENT 'BoobJob',
   `AB2FF` int(10) unsigned DEFAULT NULL COMMENT 'BoobJob',
-  `hair` char(128) DEFAULT NULL,
+  `hair` varchar(128) DEFAULT NULL,
   `hair1` int(10) unsigned DEFAULT NULL COMMENT 'hair main color',
   `hair2` int(10) unsigned DEFAULT NULL COMMENT 'hair additional color',
-  `base_model_string` char(128) DEFAULT NULL,
+  `base_model_string` varchar(128) DEFAULT NULL,
   `scale` float NOT NULL DEFAULT '1',
   PRIMARY KEY (`character_id`),
   CONSTRAINT `character_appearance_ibfk_1` FOREIGN KEY (`character_id`) REFERENCES `characters` (`id`) ON DELETE CASCADE ON UPDATE CASCADE

@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `object_attributes`;
 CREATE TABLE `object_attributes` (
   `object_id` bigint(20) unsigned NOT NULL default '0',
   `attribute_id` int(11) unsigned NOT NULL default '0',
-  `value` char(255) NOT NULL default '""',
+  `value` varchar(255) NOT NULL default '""',
   `order` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`object_id`,`attribute_id`),
   KEY `fk_object_attributes_attribute` (`attribute_id`),

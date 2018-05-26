@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `static_types`;
 CREATE TABLE `static_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `object_string` char(255) NOT NULL,
-  `name` char(255) NOT NULL default 'unknown',
-  `file` char(255) NOT NULL default 'static_n',
+  `object_string` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL default 'unknown',
+  `file` varchar(255) NOT NULL default 'static_n',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_static_objstr` (`object_string`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1606 DEFAULT CHARSET=utf8;

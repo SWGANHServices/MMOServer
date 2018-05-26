@@ -49,7 +49,7 @@ bidding on auctions was broken because only one bid per auction could be stored 
 DROP TABLE IF EXISTS `commerce_bidhistory`;
 CREATE TABLE `commerce_bidhistory` (
   `auction_id` bigint(20) unsigned NOT NULL,
-  `bidder_name` char(65) NOT NULL,
+  `bidder_name` varchar(65) NOT NULL,
   `proxy_bid` int(10) unsigned NOT NULL default '0',
   `max_bid` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`auction_id`,`bidder_name`)

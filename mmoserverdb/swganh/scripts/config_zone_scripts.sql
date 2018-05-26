@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `config_zone_scripts`;
 CREATE TABLE `config_zone_scripts` (
   `id` int(11) unsigned NOT NULL auto_increment,
   `planet_id` int(2) NOT NULL default '0',
-  `file` char(255) NOT NULL default 'script/',
+  `file` varchar(255) NOT NULL default 'script/',
   `priority` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   KEY `FK_config_zone_scripts_planet` (`planet_id`),

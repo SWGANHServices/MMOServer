@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `sounds`;
 CREATE TABLE `sounds` (
   `Id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) default NULL,
+  `name` varchar(255) default NULL,
   PRIMARY KEY  (`Id`),
   UNIQUE KEY `pk_sounds_bname` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4723 DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;

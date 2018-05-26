@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `clienteffects`;
 CREATE TABLE `clienteffects` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `effect` char(255) NOT NULL,
+  `effect` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_clienteffects_effect` (`effect`)
 ) ENGINE=InnoDB AUTO_INCREMENT=835 DEFAULT CHARSET=utf8;

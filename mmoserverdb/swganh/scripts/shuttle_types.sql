@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `shuttle_types`;
 CREATE TABLE `shuttle_types` (
   `id` int(11) unsigned NOT NULL default '0',
-  `object_string` char(255) NOT NULL default 'object/creature/npc/theme_park/shared_player_shuttle.iff',
-  `name` char(255) default 'shuttle',
-  `file` char(255) NOT NULL default 'theme_park_name',
+  `object_string` varchar(255) NOT NULL default 'object/creature/npc/theme_park/shared_player_shuttle.iff',
+  `name` varchar(255) default 'shuttle',
+  `file` varchar(255) NOT NULL default 'theme_park_name',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

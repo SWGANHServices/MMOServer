@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `skillcommands`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `skillcommands` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `name` char(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `pk_skillcommands_name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=961 DEFAULT CHARSET=utf8;

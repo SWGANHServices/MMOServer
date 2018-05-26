@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `chat_mail`;
 CREATE TABLE `chat_mail` (
   `id` int(10) unsigned NOT NULL auto_increment,
-  `from` char(255) NOT NULL default '0',
+  `from` varchar(255) NOT NULL default '0',
   `To` bigint(20) unsigned NOT NULL default '0',
-  `subject` char(255) NOT NULL default 'subject',
+  `subject` varchar(255) NOT NULL default 'subject',
   `body` text,
   `status` tinyint(1) unsigned NOT NULL default '0',
   `time` bigint(20) unsigned NOT NULL default '0',

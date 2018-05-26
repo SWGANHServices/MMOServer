@@ -40,12 +40,12 @@ use swganh;
 DROP TABLE IF EXISTS `starting_location`;
 CREATE TABLE `starting_location` (
   `location_id` int(2) unsigned NOT NULL auto_increment COMMENT 'Location ID',
-  `location` char(16) NOT NULL COMMENT 'Starting Location',
+  `location` varchar(16) NOT NULL COMMENT 'Starting Location',
   `planet_id` int(2) NOT NULL COMMENT 'Starting Location - Planet',
   `x` float(10,6) NOT NULL COMMENT 'Starting Location - X',
   `y` float(10,6) NOT NULL COMMENT 'Starting Location - Y',
   `z` float(10,6) NOT NULL COMMENT 'Starting Location - Z',
-  `description` char(64) NOT NULL COMMENT 'Starting Location - Description',
+  `description` varchar(64) NOT NULL COMMENT 'Starting Location - Description',
   `radius` float(2,0) unsigned NOT NULL COMMENT 'Starting Location - View Radius?',
   `heading` int(3) unsigned NOT NULL COMMENT 'Starting Location - Orientation',
   PRIMARY KEY  (`location_id`),

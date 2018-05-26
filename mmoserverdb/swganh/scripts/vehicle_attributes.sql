@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `vehicle_attributes`;
 CREATE TABLE `vehicle_attributes` (
   `vehicles_id` bigint(20) NOT NULL,
   `attribute_id` int(11) NOT NULL,
-  `attribute_value` char(255) NOT NULL,
+  `attribute_value` varchar(255) NOT NULL,
   `attribute_order` int(11) NOT NULL,
   KEY `fk_vehicle_attributes_vehicles` (`vehicles_id`),
   CONSTRAINT `fk_vehicle_attributes_vehicles` FOREIGN KEY (`vehicles_id`) REFERENCES `vehicles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE

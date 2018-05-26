@@ -81,33 +81,54 @@ TravelMapHandler::TravelMapHandler(Database* database, MessageDispatch* dispatch
 
     // load our points in world
     mDatabase->executeSqlAsync(this,new(mDBAsyncPool.malloc()) TravelMapAsyncContainer(TMQuery_PointsInWorld),
-                               "SELECT DISTINCT(terminals.dataStr),terminals.x,terminals.y,terminals.z,terminals.dataInt1,"
-                               "terminals.dataInt2,terminals.planet_id,"
-                               "spawn_shuttle.X,spawn_shuttle.Y,spawn_shuttle.Z"
-                               " FROM %s.terminals"
-                               " INNER JOIN %s.spawn_shuttle ON (terminals.dataInt3 = spawn_shuttle.id)"
-                               " WHERE terminals.terminal_type = 16 AND"
-                               " terminals.parent_id = 0"
-                               " GROUP BY terminals.dataStr",
-                               mDatabase->galaxy(),mDatabase->galaxy());
+                              // "SELECT DISTINCT(terminals.dataStr),terminals.x,terminals.y,terminals.z,terminals.dataInt1,"
+                              // "terminals.dataInt2,terminals.planet_id,"
+                              // "spawn_shuttle.X,spawn_shuttle.Y,spawn_shuttle.Z"
+                              // " FROM %s.terminals"
+                              // " INNER JOIN %s.spawn_shuttle ON (terminals.dataInt3 = spawn_shuttle.id)"
+                              // " WHERE terminals.terminal_type = 16 AND"
+                              // " terminals.parent_id = 0"
+                              // " GROUP BY terminals.dataStr",
+                              
+							  "SELECT (terminals.dataStr), MAX(terminals.x), MAX(terminals.y), MAX(terminals.z), MAX(terminals.dataInt1),"
+							  "MAX(terminals.dataInt2),MAX(terminals.planet_id),"
+							  "MAX(spawn_shuttle.X),MAX(spawn_shuttle.Y), MAX(spawn_shuttle.Z)"
+							  " FROM swganh.terminals"
+							  " INNER JOIN swganh.spawn_shuttle ON(terminals.dataInt3 = spawn_shuttle.id)"
+							  " WHERE terminals.terminal_type = 16 AND"
+							  " terminals.parent_id = 0"
+							  " GROUP BY terminals.dataStr",
+							  mDatabase->galaxy(),mDatabase->galaxy());
+
    
 
     // load travel points in cells
     mDatabase->executeSqlAsync(this,new(mDBAsyncPool.malloc()) TravelMapAsyncContainer(TMQuery_PointsInCells),
-                               "SELECT DISTINCT(terminals.dataStr),terminals.planet_id,terminals.dataInt1,terminals.dataInt2,"
-                               "buildings.x,buildings.y,buildings.z,spawn_shuttle.X,spawn_shuttle.Y,spawn_shuttle.Z"
-                               " FROM %s.terminals"
-                               " INNER JOIN %s.spawn_shuttle ON (terminals.dataInt3 = spawn_shuttle.id)"
-                               " INNER JOIN %s.cells ON (terminals.parent_id = cells.id)"
-                               " INNER JOIN %s.buildings ON (cells.parent_id = buildings.id)"
-                               " WHERE"
-                               " (terminals.terminal_type = 16) AND"
-                               " (terminals.parent_id <> 0)"
-                               " GROUP BY terminals.dataStr",
-                               mDatabase->galaxy(),mDatabase->galaxy(),mDatabase->galaxy(),mDatabase->galaxy());
+                              // "SELECT DISTINCT(terminals.dataStr),terminals.planet_id,terminals.dataInt1,terminals.dataInt2,"
+                              // "buildings.x,buildings.y,buildings.z,spawn_shuttle.X,spawn_shuttle.Y,spawn_shuttle.Z"
+                              // " FROM %s.terminals"
+                              // " INNER JOIN %s.spawn_shuttle ON (terminals.dataInt3 = spawn_shuttle.id)"
+                              // " INNER JOIN %s.cells ON (terminals.parent_id = cells.id)"
+                              // " INNER JOIN %s.buildings ON (cells.parent_id = buildings.id)"
+                              // " WHERE"
+                              // " (terminals.terminal_type = 16) AND"
+                              // " (terminals.parent_id <> 0)"
+                              // " GROUP BY terminals.dataStr",
+
+							  "SELECT (terminals.dataStr), MAX(terminals.planet_id), MAX(terminals.dataInt1), MAX(terminals.dataInt2),"
+								"MAX(buildings.x), MAX(buildings.y), MAX(buildings.z), MAX(spawn_shuttle.X), MAX(spawn_shuttle.Y), MAX(spawn_shuttle.Z)"
+								" FROM swganh.terminals"
+								" INNER JOIN swganh.spawn_shuttle ON(terminals.dataInt3 = spawn_shuttle.id)"
+								" INNER JOIN swganh.cells ON(terminals.parent_id = cells.id)"
+								" INNER JOIN swganh.buildings ON(cells.parent_id = buildings.id)"
+								" WHERE"
+								" (terminals.terminal_type = 16) AND"
+								" (terminals.parent_id <> 0)"
+								" GROUP BY terminals.dataStr",
+								mDatabase->galaxy(),mDatabase->galaxy(),mDatabase->galaxy(),mDatabase->galaxy());
    
     // load planet routes and base prices
-    mDatabase->executeSqlAsync(this,new(mDBAsyncPool.malloc()) TravelMapAsyncContainer(TMQuery_PlanetRoutes),"SELECT * FROM %s.travel_planet_routes",mDatabase->galaxy());
+    mDatabase->executeSqlAsync(this,new(mDBAsyncPool.malloc()) TravelMapAsyncContainer(TMQuery_PlanetRoutes),"SELECT * FROM swganh.travel_planet_routes",mDatabase->galaxy());
    
 }
 

@@ -41,7 +41,7 @@ use swganh;
 DROP TABLE IF EXISTS `badges`;
 CREATE TABLE `badges` (
   `Id` int(11) unsigned NOT NULL default '0',
-  `name` char(255) default NULL,
+  `name` varchar(255) default NULL,
   `sound` int(11) unsigned NOT NULL default '0',
   `category` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`Id`),

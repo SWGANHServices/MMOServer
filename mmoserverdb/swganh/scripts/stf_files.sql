@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `stf_files`;
 CREATE TABLE `stf_files` (
   `id` int(11) unsigned NOT NULL default '0',
-  `file` char(255) NOT NULL default '',
+  `file` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_stffiles_name` (`file`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;

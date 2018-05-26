@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `craft_types`;
 CREATE TABLE `craft_types` (
   `id` int(11) unsigned NOT NULL default '0',
-  `description` char(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

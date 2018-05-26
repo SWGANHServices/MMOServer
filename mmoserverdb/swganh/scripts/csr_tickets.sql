@@ -44,7 +44,7 @@ CREATE TABLE `csr_tickets` (
   `comment` text NOT NULL,
   `info` text,
   `harrasing_user` text,
-  `language` char(2) NOT NULL default '""',
+  `language` varchar(2) NOT NULL default '""',
   `bugreport` tinyint(1) NOT NULL,
   `character_id` bigint(20) unsigned NOT NULL,
   `activity` tinyint(1) unsigned NOT NULL,

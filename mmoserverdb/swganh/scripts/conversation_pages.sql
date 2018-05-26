@@ -42,8 +42,8 @@ CREATE TABLE `conversation_pages` (
   `conversation_id` int(10) unsigned NOT NULL default '0',
   `page` int(10) unsigned NOT NULL default '0',
   `customText` varchar(512) NOT NULL,
-  `stfFile` char(255) NOT NULL,
-  `stfVariable` char(255) NOT NULL,
+  `stfFile` varchar(255) NOT NULL,
+  `stfVariable` varchar(255) NOT NULL,
   `option_batch` int(10) unsigned default NULL,
   `animation` int(10) unsigned default NULL,
   PRIMARY KEY  (`conversation_id`,`page`)

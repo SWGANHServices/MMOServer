@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `weapon_groups`;
 CREATE TABLE `weapon_groups` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
   `defaultAttackAnimationCrc` int(11) unsigned NOT NULL default '0',
-  `defaultCombatSpam` char(255) NOT NULL default 'melee',
+  `defaultCombatSpam` varchar(255) NOT NULL default 'melee',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=257 DEFAULT CHARSET=utf8;
 

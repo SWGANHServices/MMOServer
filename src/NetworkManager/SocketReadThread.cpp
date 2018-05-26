@@ -444,8 +444,7 @@ void SocketReadThread::run(void)
             }
         }
 
- //       boost::this_thread::sleep(boost::posix_time::microseconds(10));
-        usleep(2000);
+        boost::this_thread::sleep(boost::posix_time::microseconds(10));
     }
 
     // Shutdown internally

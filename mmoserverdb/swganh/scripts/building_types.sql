@@ -40,12 +40,12 @@ use swganh;
 DROP TABLE IF EXISTS `building_types`;
 CREATE TABLE `building_types` (
   `id` int(11) NOT NULL auto_increment,
-  `model` char(255) NOT NULL,
+  `model` varchar(255) NOT NULL,
   `cells` tinyint(2) unsigned NOT NULL default '1',
   `width` float NOT NULL default '128',
   `height` float NOT NULL default '128',
-  `file` char(255) NOT NULL default 'building_name',
-  `name` char(255) NOT NULL default 'housing_general_small_style_1',
+  `file` varchar(255) NOT NULL default 'building_name',
+  `name` varchar(255) NOT NULL default 'housing_general_small_style_1',
   `family` int(11) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_buildingtypes_objstr` (`model`),

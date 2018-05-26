@@ -40,9 +40,9 @@ use swganh;
 DROP TABLE IF EXISTS `terminal_types`;
 CREATE TABLE `terminal_types` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `object_string` char(255) default NULL,
-  `name` char(255) NOT NULL default 'terminal_',
-  `file` char(255) NOT NULL default 'unknown',
+  `object_string` varchar(255) default NULL,
+  `name` varchar(255) NOT NULL default 'terminal_',
+  `file` varchar(255) NOT NULL default 'unknown',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `pk_object_string` (`object_string`)
 ) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8;

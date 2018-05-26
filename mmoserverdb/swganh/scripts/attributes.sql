@@ -44,7 +44,7 @@ USE swganh;
 DROP TABLE IF EXISTS `attributes`;
 CREATE TABLE `attributes` (
   `id` int(11) unsigned NOT NULL auto_increment,
-  `name` char(255) default NULL,
+  `name` varchar(255) default NULL,
   `internal` tinyint(3) unsigned NOT NULL default '0',
   `attribute_internal_description` text NOT NULL,
   `item_tool_internal` int(10) unsigned NOT NULL default '0',

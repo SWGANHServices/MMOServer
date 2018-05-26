@@ -39,7 +39,7 @@ use swganh;
 
 DROP TABLE IF EXISTS `biography_planet`;
 CREATE TABLE `biography_planet` (
-  `planet` char(255) NOT NULL default '',
+  `planet` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`planet`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;
 

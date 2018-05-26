@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `waypoints`;
 CREATE TABLE `waypoints` (
   `waypoint_id` bigint(20) unsigned NOT NULL auto_increment,
   `owner_id` bigint(20) unsigned NOT NULL default '0',
-  `name` char(255) NOT NULL default '',
+  `name` varchar(255) NOT NULL default '',
   `x` float NOT NULL default '0',
   `y` float NOT NULL default '0',
   `z` float NOT NULL default '0',

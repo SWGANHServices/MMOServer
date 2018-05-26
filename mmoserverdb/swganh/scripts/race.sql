@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `race`;
 CREATE TABLE `race` (
   `id` int(8) unsigned NOT NULL auto_increment COMMENT 'Character Starting Attributes Table ID',
-  `name` char(24) NOT NULL default '' COMMENT 'Race Name',
+  `name` varchar(24) NOT NULL default '' COMMENT 'Race Name',
   `health_min` int(6) unsigned NOT NULL default '0' COMMENT 'Health Minimum',
   `health_max` int(6) unsigned NOT NULL default '0' COMMENT 'Health Maximum',
   `strength_min` int(6) unsigned NOT NULL default '0' COMMENT 'Strangth Minimum',

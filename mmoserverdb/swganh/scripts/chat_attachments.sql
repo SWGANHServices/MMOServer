@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `chat_attachments`;
 CREATE TABLE `chat_attachments` (
   `id` int(11) NOT NULL auto_increment,
-  `name` char(255) NOT NULL default 'name',
+  `name` varchar(255) NOT NULL default 'name',
   `planet_crc` int(10) unsigned NOT NULL default '0',
   `x` float NOT NULL default '0',
   `y` float NOT NULL default '0',

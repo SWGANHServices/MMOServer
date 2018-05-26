@@ -42,9 +42,9 @@ CREATE TABLE `persistent_npcs` (
   `id` bigint(20) unsigned NOT NULL default '0',
   `parentId` bigint(20) unsigned NOT NULL default '0',
   `family` int(11) unsigned NOT NULL default '2',
-  `type` char(255) NOT NULL default '0',
-  `firstName` char(255) default NULL,
-  `lastName` char(255) default NULL,
+  `type` varchar(255) NOT NULL default '0',
+  `firstName` varchar(255) default NULL,
+  `lastName` varchar(255) default NULL,
   `posture` int(3) unsigned NOT NULL default '0',
   `moodId` int(11) unsigned NOT NULL default '0',
   `state` int(11) unsigned NOT NULL default '0',
@@ -58,8 +58,8 @@ CREATE TABLE `persistent_npcs` (
   `y` float NOT NULL default '0',
   `z` float default '0',
   `planet_id` int(2) NOT NULL default '0',
-  `stf_variable_id` char(255) NOT NULL default '0',
-  `stf_file_id` char(255) NOT NULL default '0',
+  `stf_variable_id` varchar(255) NOT NULL default '0',
+  `stf_file_id` varchar(255) NOT NULL default '0',
   `scale` float NOT NULL default '1',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=REDUNDANT;

@@ -42,7 +42,7 @@ CREATE TABLE `csr_comments` (
   `comment_id` int(10) unsigned NOT NULL auto_increment,
   `ticket_id` int(10) unsigned NOT NULL,
   `message` text NOT NULL,
-  `poster_name` char(32) NOT NULL default '""',
+  `poster_name` varchar(32) NOT NULL default '""',
   PRIMARY KEY  (`comment_id`),
   KEY `FK_csr_comments_ticket_id` (`ticket_id`),
   CONSTRAINT `FK_csr_comments_ticket_id` FOREIGN KEY (`ticket_id`) REFERENCES `csr_tickets` (`ticket_id`) ON DELETE CASCADE ON UPDATE CASCADE

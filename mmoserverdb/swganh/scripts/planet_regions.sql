@@ -40,8 +40,8 @@ use swganh;
 DROP TABLE IF EXISTS `planet_regions`;
 CREATE TABLE `planet_regions` (
   `region_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `region_name` char(255) DEFAULT 'region_name',
-  `region_file` char(255) DEFAULT 'region_file',
+  `region_name` varchar(255) DEFAULT 'region_name',
+  `region_file` varchar(255) DEFAULT 'region_file',
   `x` float NOT NULL DEFAULT '0',
   `z` float NOT NULL DEFAULT '0',
   `width` float NOT NULL DEFAULT '0',

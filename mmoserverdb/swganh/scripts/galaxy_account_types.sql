@@ -40,8 +40,8 @@ USE swganh;
 DROP TABLE IF EXISTS `galaxy_account_types`;
 CREATE TABLE `galaxy_account_types` (
   `id` bigint(20) unsigned NOT NULL auto_increment,
-  `type` char(255) NOT NULL,
-  `description` char(255) NOT NULL,
+  `type` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 

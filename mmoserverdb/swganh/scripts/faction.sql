@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `faction`;
 CREATE TABLE `faction` (
   `id` int(8) unsigned NOT NULL auto_increment COMMENT 'Faction ID',
-  `name` char(32) NOT NULL COMMENT 'Faction Name',
+  `name` varchar(32) NOT NULL COMMENT 'Faction Name',
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=utf8;
 

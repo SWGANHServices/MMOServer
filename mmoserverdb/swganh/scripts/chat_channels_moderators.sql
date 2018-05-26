@@ -40,7 +40,7 @@ use swganh;
 DROP TABLE IF EXISTS `chat_channels_moderators`;
 CREATE TABLE `chat_channels_moderators` (
   `channel_id` int(10) unsigned NOT NULL,
-  `char_name` char(32) NOT NULL,
+  `char_name` varchar(32) NOT NULL,
   KEY `FK_chat_channels_moderators_1` (`channel_id`),
   CONSTRAINT `FK_chat_channels_moderators_1` FOREIGN KEY (`channel_id`) REFERENCES `chat_channels` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
