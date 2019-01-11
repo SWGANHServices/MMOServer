@@ -14,7 +14,6 @@ ipch/
 *.vcxproj.user
 *.cache
 *.zip
-*.7z.tmp
 *.7z
 *.tmp_*Win32.vcproj
 *.user

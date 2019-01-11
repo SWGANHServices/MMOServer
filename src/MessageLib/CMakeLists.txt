@@ -2,9 +2,9 @@ include(MMOServerLibrary)
 
 AddMMOServerLibrary(MessageLib
     MMOSERVER_DEPS 
-        NetworkManager    
         Utils
         Common
+        NetworkManager
     ADDITIONAL_INCLUDE_DIRS
         ${NOISE_INCLUDE_DIR}
     DEBUG_LIBRARIES

@@ -41,8 +41,7 @@ IF(CMAKE_COMPILER_IS_GNUCXX)
     ENDIF()
         
     SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
-	  SET(CMAKE_VERBOSE_MAKEFILE ON)
-	# " -pthread -o term -lm -lrt -lz -lpthread -lboost_filesystem -ldl -lboost_log")
+	SET(CMAKE_EXE_LINKER_FLAGS "-lm -lrt -lpthread -lboost_filesystem -ldl -lboost_log")
 
     # use, i.e. don't skip the full RPATH for the build tree
     SET(CMAKE_SKIP_BUILD_RPATH FALSE)
@@ -161,7 +160,7 @@ IF(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/deps")
     
     SET(NOISE_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/${__deps_dir}/noise")
     
- #   SET(TBB_INSTALL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/${__deps_dir}/tbb")
+    SET(TBB_INSTALL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/${__deps_dir}/tbb")
     
     SET(TOLUAPP_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/${__deps_dir}/tolua++")
     
@@ -175,7 +174,7 @@ FIND_PACKAGE(Lua REQUIRED)
 FIND_PACKAGE(MySQL REQUIRED)
 FIND_PACKAGE(MysqlConnectorCpp REQUIRED)
 FIND_PACKAGE(Noise REQUIRED)
-# FIND_PACKAGE(TBB REQUIRED)
+FIND_PACKAGE(TBB REQUIRED)
 FIND_PACKAGE(ToLuapp REQUIRED)
 FIND_PACKAGE(ZLIB REQUIRED)
 

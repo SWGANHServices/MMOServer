@@ -4,3 +4,4 @@ AddMMOServerLibrary(Common
     MMOSERVER_DEPS 
         Utils 
 )
+

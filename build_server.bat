@@ -81,9 +81,10 @@ rem ----------------------------------------------------------------------------
 rem --- Start of SET_DEFAULTS --------------------------------------------------
 :SET_DEFAULTS
 
-set DEPENDENCIES_VERSION=0.7.0
+set DEPENDENCIES_VERSION=0.6.120
 set DEPENDENCIES_FILE=mmoserver-deps-%DEPENDENCIES_VERSION%.tar.bz2
-set DEPENDENCIES_URL=https://github.com/SWGANHServices/MMOServer_Legacy/releases/download/downloads/%DEPENDENCIES_FILE%
+rem set DEPENDENCIES_URL=http://104.168.147.252/deps/%DEPENDENCIES_FILE%
+set DEPENDENCIES_URL=https://www.dropbox.com/s/nl2tyxvzioscmup/mmoserver-deps-0.6.120.tar.bz2?dl=0
 set "PROJECT_BASE=%~dp0"
 set "PROJECT_DRIVE=%~d0"
 set PATH=%PROJECT_BASE%tools\windows;%PATH%
@@ -255,7 +256,7 @@ if not exist "data\heightmaps\%1.hmpw" (
 	if not exist "data\heightmaps\%1.hmpw.zip" (
 		echo ** Downloading Heightmap for %1 **
 		echo.
-		"wget" --no-check-certificate https://github.com/SWGANHServices/MMOServer_Legacy/releases/download/HeightMaps/%1.hmpw.zip -O data\heightmaps\%1.hmpw.zip
+		"wget" --no-check-certificate https://github.com/htx/mmoserver/releases/download/v0.6.0/%1.hmpw.zip -O data\heightmaps\%1.hmpw.zip
 		echo ** Downloading heightmap complete **
 	)
 
