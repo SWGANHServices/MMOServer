@@ -74,7 +74,7 @@ void WorldManager::_loadWorldObjects()
                 }
 
                 std::unique_ptr<sql::ResultSet>& result_set = result->getResultSet();
-
+				
                 while(result_set->next())
                 {
                     gObjectFactory->requestObject(ObjType_Region, Region_Zone, 0, this, result_set->getUInt64(1));

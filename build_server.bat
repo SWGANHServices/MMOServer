@@ -81,15 +81,17 @@ rem ----------------------------------------------------------------------------
 rem --- Start of SET_DEFAULTS --------------------------------------------------
 :SET_DEFAULTS
 
-set DEPENDENCIES_VERSION=0.7.0
-set DEPENDENCIES_FILE=mmoserver-deps-%DEPENDENCIES_VERSION%.tar.bz2
-set DEPENDENCIES_URL=https://github.com/SWGANHServices/MMOServer_Legacy/releases/download/downloads/%DEPENDENCIES_FILE%
+set DEPENDENCIES_VERSION=0.6.150
+set DEPENDENCIES_FILE=mmoserver-deps-%DEPENDENCIES_VERSION%.tar
+rem set DEPENDENCIES_URL=http://104.168.147.252/deps/%DEPENDENCIES_FILE%
+rem set deps download back to official github or alternative
+set DEPENDENCIES_URL=https://www.dropbox.com/s/v78uh1sv1pipigf/mmoserver-deps-0.6.150.7z?dl=0
 set "PROJECT_BASE=%~dp0"
 set "PROJECT_DRIVE=%~d0"
 set PATH=%PROJECT_BASE%tools\windows;%PATH%
 set BUILD_TYPE=debug
 set REBUILD=build
-set MSVC_VERSION=12
+set MSVC_VERSION=15
 set ALLHEIGHTMAPS=false
 set SKIPHEIGHTMAPS=false
 set DEPENDENCIESONLY=false
@@ -189,22 +191,24 @@ rem ----------------------------------------------------------------------------
 rem --- Start of BUILD_ENVIRONMENT ---------------------------------------------
 :BUILD_ENVIRONMENT
 
-if not exist "%VS120COMNTOOLS%" (
-  set "VS120COMNTOOLS=%PROGRAMFILES(X86)%\Microsoft Visual Studio 12.0\Common7\Tools"
-  if not exist "!VS120COMNTOOLS!" (
-  	  set "VS120COMNTOOLS=%PROGRAMFILES%\Microsoft Visual Studio 12.0\Common7\Tools"
-  	  if not exist "!VS120COMNTOOLS!" (          
+if not exist "%VS141COMNTOOLS%" (
+  set "VS141COMNTOOLS=%PROGRAMFILES(X86)%\Microsoft Visual Studio\2017\Community\"
+  if not exist "!VS141COMNTOOLS!" (
+  	  set "VS141COMNTOOLS=%PROGRAMFILES%\Microsoft Visual Studio\2017\Community\"
+  	  if not exist "!VS141COMNTOOLS!" (
   		    rem TODO: Allow user to enter a path to their base visual Studio directory.
-         
-    	    echo ***** Microsoft Visual Studio 12.0 required *****
+
+    	    echo ***** Microsoft Visual Studio 15 required *****
     	    exit /b 1
   	  )
   )
 )
 
-set "MSBUILD=%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe"
+rem set "MSBUILD=%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe"
+set "MSBUILD=%VS141COMNTOOLS%MSBuild\15.0\Bin\msbuild.exe"
 
-call "%VS120COMNTOOLS%\vsvars32.bat" >NUL
+call "%VS141COMNTOOLS%VC\Auxiliary\Build\vcvars32.bat" >NUL
+
 
 set environment_built=yes
 
@@ -255,11 +259,14 @@ if not exist "data\heightmaps\%1.hmpw" (
 	if not exist "data\heightmaps\%1.hmpw.zip" (
 		echo ** Downloading Heightmap for %1 **
 		echo.
-		"wget" --no-check-certificate https://github.com/SWGANHServices/MMOServer_Legacy/releases/download/HeightMaps/%1.hmpw.zip -O data\heightmaps\%1.hmpw.zip
+	rem	"wget" --no-check-certificate https://github.com/htx/mmoserver/releases/download/v0.6.0/%1.hmpw.zip -O data\heightmaps\%1.hmpw.zip
+	rem todo set download back to official got hub
+		"wget" --no-check-certificate https://www.dropbox.com/s/u10q5pvecssvzx1/tatooine.hmpw.7z?dl=0 -O data\heightmaps\tatooine.hmpw.7z
 		echo ** Downloading heightmap complete **
 	)
 
-	"7z" x -y -odata\heightmaps data\heightmaps\%1.hmpw.zip 
+	rem "7z" x -y -odata\heightmaps data\heightmaps\%1.hmpw.zip 
+	"7z" x -y -odata\heightmaps data\heightmaps\tatooine.hmpw.zip 
 )
 
 goto :eof
@@ -297,7 +304,7 @@ if not %current_version% == %DEPENDENCIES_VERSION% (
 	echo ** Dependencies updated **
 )
 
-call "%PROJECT_BASE%\deps\build_deps.bat"
+rem call "%PROJECT_BASE%\deps\build_deps.bat"
 
 echo ** Building dependencies complete **
 
@@ -318,7 +325,7 @@ if not exist "%DEPENDENCIES_FILE%" (
 if exist "%DEPENDENCIES_FILE%" (
 	echo Extracting dependencies ...
 
-	"tar" -xvjf "%DEPENDENCIES_FILE%"
+	"7z" -xvjf "%DEPENDENCIES_FILE%"
 	echo Complete!
 	echo.
 )
@@ -338,7 +345,7 @@ if not exist "%PROJECT_BASE%build" (
 )
 cd "%PROJECT_BASE%build"
 
-cmake -G "Visual Studio 12" -DCMAKE_INSTALL_PREFIX=%PROJECT_BASE% -DENABLE_TEST_REPORT=ON ..
+cmake -G "Visual Studio 15" -DCMAKE_INSTALL_PREFIX=%PROJECT_BASE% -DENABLE_TEST_REPORT=ON ..
 
 if exist "*.cache" del /S /Q "*.cache" >NUL
 
