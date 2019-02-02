@@ -5,19 +5,19 @@ This build has been tested on and run on windows only.
 ## Building/Installing ##
 
 **Pre-Requisits**
-*	MySQL server 5.7 (32bit) - Download[7]
+*	MySQL server 5.7 (32bit) - [Download][7]
 
 *	CMake 3.12.3 - [8]
 
-*	Visual Studio 2017 Community - Download[9]
+*	Visual Studio 2017 Community - [Download][9]
 
-*	Git hub Desktop (Optional) - Download[10]
+*	Git hub Desktop (Optional) - [Download][10]
 
 
 ### Windows Builds ###
 
 To build the server download and install the pre-requisits, clone the project.
-Download the *	Dependencies - Download[11] and extract them into the root of your project folder
+Download the *	Dependencies - [Download][11] and extract them into the root of your project folder
 	(IE: C:\MMOServer_Legacy) 
 Browse into the deps folder and execute the build_deps batch file
 	
@@ -51,7 +51,7 @@ Double click the build_server.bat and sit back, relax and await the errors*...
 	*you may also have to link the appropriate deps 
 		Properties -> Linker -> Additional Library Directories
 		
-some limited support can be found on our discord [12] or forum : [6]		
+some limited support can be found on our [discord][12] or [forum][6]		
 
 -------------------------## Legacy Markdown ##-------------------------
 
