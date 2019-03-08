@@ -104,5 +104,5 @@ You can use the -DCMAKE\_INSTALL\_PREFIX flag to specify a custom output directo
 	[8]: https://cmake.org/download/
 	[9]: https://visualstudio.microsoft.com/downloads/
 	[10]: https://desktop.github.com/
-	[11]: https://www.dropbox.com/s/qe53rf368b96dj7/mmoserver-deps-0.6.141.tar.bz2?dl=0
+	[11]: https://www.dropbox.com/s/v78uh1sv1pipigf/mmoserver-deps-0.6.150.7z?dl=0
 	[12]: https://discord.gg/7GThTY
