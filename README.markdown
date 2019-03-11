@@ -53,7 +53,7 @@ Double click the build_server.bat and sit back, relax and await the errors*...
 		
 some limited support can be found on our [discord][12] or [forum][6]		
 
-------------------------- ## Legacy Markdown ## -------------------------
+##-------------------------Legacy Markdown-------------------------##
 
 ## MMOServer ##
 
