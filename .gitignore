@@ -1,6 +1,6 @@
 # These files should be ignored
 bin/
-deps/
+
 build/
 Debug/
 Release/

@@ -1,0 +1,2 @@
+SET(CONNECTOR_PRODUCT_VERSION 1.1.12)
+SET(LICENSE_FILENAME "D:/MMOServer_Legacy/deps/src/mysql-connector-cpp/LICENSE")
