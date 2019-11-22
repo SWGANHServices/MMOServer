@@ -1,31 +1,31 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DataBindingFactory.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\Database.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseImplementationMySql.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseManager.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseResult.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseWorkerThread.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\Transaction.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\DataBindingFactory.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\Database.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\DatabaseImplementationMySql.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\DatabaseManager.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\DatabaseResult.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\DatabaseWorkerThread.cpp" />
+    <ClCompile Include="C:\MMOServer\src\DatabaseManager\Transaction.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DataBinding.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DataBindingFactory.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\Database.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseCallback.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseConfig.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseImplementation.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseImplementationMySql.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseJob.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseManager.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseResult.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseType.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\DatabaseWorkerThread.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\Transaction.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DataBinding.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DataBindingFactory.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\Database.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseCallback.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseConfig.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseImplementation.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseImplementationMySql.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseJob.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseManager.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseResult.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseType.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\DatabaseWorkerThread.h" />
+    <ClInclude Include="C:\MMOServer\src\DatabaseManager\Transaction.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\DatabaseManager\CMakeLists.txt" />
+    <CustomBuild Include="C:\MMOServer\src\DatabaseManager\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

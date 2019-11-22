@@ -1,32 +1,32 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.cc">
+    <ClCompile Include="C:\MMOServer\src\anh\byte_buffer.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\crc.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\event_dispatcher\event_dispatcher.cc">
       <Filter>event_dispatcher</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\hash_string.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer-inl.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\basic_event.h">
+    <ClInclude Include="C:\MMOServer\src\anh\byte_buffer-inl.h" />
+    <ClInclude Include="C:\MMOServer\src\anh\byte_buffer.h" />
+    <ClInclude Include="C:\MMOServer\src\anh\crc.h" />
+    <ClInclude Include="C:\MMOServer\src\anh\event_dispatcher\basic_event.h">
       <Filter>event_dispatcher</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.h">
+    <ClInclude Include="C:\MMOServer\src\anh\event_dispatcher\event_dispatcher.h">
       <Filter>event_dispatcher</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\utilities.h" />
+    <ClInclude Include="C:\MMOServer\src\anh\hash_string.h" />
+    <ClInclude Include="C:\MMOServer\src\anh\utilities.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt" />
+    <CustomBuild Include="C:\MMOServer\src\anh\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="event_dispatcher">
-      <UniqueIdentifier>{F4BF72C0-595E-3811-A26F-C8E463DEF416}</UniqueIdentifier>
+      <UniqueIdentifier>{38BCDD57-5E56-3B95-9045-2F55A49166B5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

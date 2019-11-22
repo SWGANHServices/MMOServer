@@ -11,13 +11,12 @@ SWG:ANH Database Installer Help
 		
 		/backup [option]	      Backup the SWG:ANH Database Schema
 			all                   Backup the full suite of SWG:ANH Databases
-		    	swganh                Backup the swganh Database
+		    swganh                Backup the swganh Database
 			config                Backup the Config Database
-			logging               Backup the Logging Database
-		    	astromech             Backup the AstroMech Database
-		    	archive               Backup the Archive Databse
-			
-		/update			Update the database
+		    logging               Backup the Logging Database
+		    astromech             Backup the AstroMech Database
+		    archive               Backup the Archive Databse
+		/update                 Update the database
 		
 		/checkdbversion         Check the database version
 		

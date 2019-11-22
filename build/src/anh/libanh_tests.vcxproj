@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5D3F60CB-7321-3B3D-BA34-5D8CAD496A28}</ProjectGuid>
+    <ProjectGuid>{31CE8D4E-F1E0-3CB8-8624-1410048DCF45}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>libanh_tests</ProjectName>
@@ -55,25 +55,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\MMOServer\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libanh_tests.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libanh_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\MMOServer\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libanh_tests.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libanh_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\MMOServer\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libanh_tests.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libanh_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\MMOServer\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libanh_tests.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libanh_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories);C:\MMOServer\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,7 +115,7 @@
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/$(ConfigurationName)/libanh_tests"
+call "C:/MMOServer/build/bin/$(ConfigurationName)/libanh_tests"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,16 +125,14 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>Debug\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Debug\gtestd.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Debug\gtest_main-mdd.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-gd-1_58.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\build\vc12\ia32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Debug\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Debug\gtestd.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Debug\gtest_main-mdd.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-gd-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-gd-1_58.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release;C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/MMOServer/deps/src/boost/stage/lib;C:/MMOServer/deps/src/boost/stage/lib/$(Configuration);C:\MMOServer\deps\src\tbb\build\vc12\ia32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/Debug/libanh_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Debug/libanh_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/MMOServer/build/src/anh/Debug/libanh_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MMOServer/build/bin/Debug/libanh_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -142,7 +140,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4251;4786;4503;4275;4290;4661;4996;4127;4100;4005;4075</DisableSpecificWarnings>
@@ -161,10 +159,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -175,7 +173,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/$(ConfigurationName)/libanh_tests"
+call "C:/MMOServer/build/bin/$(ConfigurationName)/libanh_tests"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,16 +183,14 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>Release\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Release\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release;C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/MMOServer/deps/src/boost/stage/lib;C:/MMOServer/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/Release/libanh_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/Release/libanh_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/MMOServer/build/src/anh/Release/libanh_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MMOServer/build/bin/Release/libanh_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -202,7 +198,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4251;4786;4503;4275;4290;4661;4996;4127;4100;4005;4075</DisableSpecificWarnings>
@@ -221,10 +217,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,7 +231,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/$(ConfigurationName)/libanh_tests"
+call "C:/MMOServer/build/bin/$(ConfigurationName)/libanh_tests"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,16 +241,14 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>MinSizeRel\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MinSizeRel\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release;C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/MMOServer/deps/src/boost/stage/lib;C:/MMOServer/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/MinSizeRel/libanh_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/MinSizeRel/libanh_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/MMOServer/build/src/anh/MinSizeRel/libanh_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MMOServer/build/bin/MinSizeRel/libanh_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -262,7 +256,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -280,10 +274,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\MMOServer\deps\src\mysql-connector-c\include;C:\MMOServer\src;C:\MMOServer\deps\src\boost;C:\MMOServer\deps\src\glm;C:\MMOServer\deps\src\mysql-connector-cpp;C:\MMOServer\deps\src\mysql-connector-cpp\driver;C:\MMOServer\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -294,7 +288,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/$(ConfigurationName)/libanh_tests"
+call "C:/MMOServer/build/bin/$(ConfigurationName)/libanh_tests"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,26 +298,24 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>RelWithDebInfo\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib;C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>RelWithDebInfo\libanh.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest.lib;..\..\..\deps\src\gtest\msvc\gtest-md\Release\gtest_main-md.lib;..\..\..\deps\src\boost\stage\lib\libboost_date_time-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_regex-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_system-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_thread-vc120-mt-1_58.lib;..\..\..\deps\src\boost\stage\lib\libboost_log-vc120-mt-1_58.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Debug\mysqlcppconn.lib;..\..\..\deps\src\mysql-connector-c\libmysql\Release\mysqlclient.lib;..\..\..\deps\src\mysql-connector-cpp\driver\Release\mysqlcppconn.lib;-lrt -lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release;C:/MMOServer/deps/src/mysql-connector-c/libmysql/Release/$(Configuration);C:/MMOServer/deps/src/boost/stage/lib;C:/MMOServer/deps/src/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/RelWithDebInfo/libanh_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/bin/RelWithDebInfo/libanh_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/MMOServer/build/src/anh/RelWithDebInfo/libanh_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MMOServer/build/bin/RelWithDebInfo/libanh_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\MMOServer\src\anh\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/MMOServer/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MMOServer -BC:/MMOServer/build --check-stamp-file C:/MMOServer/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -331,12 +323,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/MMOServer/src/anh/CMakeLists.txt;C:\MMOServer\src\anh\CMakeLists.txt;C:\MMOServer\tools\cmake\CMakeMacroParseArguments.cmake;C:\MMOServer\tools\cmake\MMOServerLibrary.cmake;C:\MMOServer\tools\windows\user_project.vcxproj.in;C:\MMOServer\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\MMOServer\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/MMOServer/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MMOServer -BC:/MMOServer/build --check-stamp-file C:/MMOServer/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -344,12 +336,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/MMOServer/src/anh/CMakeLists.txt;C:\MMOServer\src\anh\CMakeLists.txt;C:\MMOServer\tools\cmake\CMakeMacroParseArguments.cmake;C:\MMOServer\tools\cmake\MMOServerLibrary.cmake;C:\MMOServer\tools\windows\user_project.vcxproj.in;C:\MMOServer\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\MMOServer\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/MMOServer/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MMOServer -BC:/MMOServer/build --check-stamp-file C:/MMOServer/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -357,12 +349,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/MMOServer/src/anh/CMakeLists.txt;C:\MMOServer\src\anh\CMakeLists.txt;C:\MMOServer\tools\cmake\CMakeMacroParseArguments.cmake;C:\MMOServer\tools\cmake\MMOServerLibrary.cmake;C:\MMOServer\tools\windows\user_project.vcxproj.in;C:\MMOServer\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\MMOServer\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/MMOServer/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MMOServer -BC:/MMOServer/build --check-stamp-file C:/MMOServer/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -370,26 +362,30 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/MMOServer/src/anh/CMakeLists.txt;C:\MMOServer\src\anh\CMakeLists.txt;C:\MMOServer\tools\cmake\CMakeMacroParseArguments.cmake;C:\MMOServer\tools\cmake\MMOServerLibrary.cmake;C:\MMOServer\tools\windows\user_project.vcxproj.in;C:\MMOServer\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\MMOServer\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\utilities_unittest.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\byte_buffer_unittest.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\crc_unittest.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\event_dispatcher\event_dispatcher_unittest.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\hash_string_unittest.cc" />
+    <ClCompile Include="C:\MMOServer\src\anh\utilities_unittest.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\ZERO_CHECK.vcxproj">
-      <Project>{45BDA820-01C5-3D86-9B8E-B11B131D5B03}</Project>
+    <ProjectReference Include="C:\MMOServer\build\ZERO_CHECK.vcxproj">
+      <Project>{5C7BAB69-4B2B-3842-A00E-147490C9A65D}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\libanh.vcxproj">
-      <Project>{73517C2E-62B1-33D6-A8CA-FB057C1E8552}</Project>
+    <ProjectReference Include="C:\MMOServer\build\src\anh\libanh.vcxproj">
+      <Project>{93D409D1-3910-3652-B5C7-E3DF7D05AD77}</Project>
       <Name>libanh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -2,6 +2,9 @@
 
 The MMOServer is the flagship project for the [SWG:ANH Team][1]. It is a cross platform massively multiplayer game server intended to emulate the [Star Wars Galaxies][2] Pre-Combat Upgrade experience. The base of the server is written in C++ with some LUA sprinkled in.
 
+# Current Build # 
+
+This branch assumes you are building directly on C drive (c:\MMOServer). The deps should be mapped coreectly however if cloning to another directory  you may have to remap them.
 
 ## Building/Installing ##
 
