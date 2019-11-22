@@ -1,3 +1,7 @@
+# WARNING! # 
+The auto build dose not woth with newer versions of visual studio please use VS2013 until an update is made.
+Alternitivly please use the development branch as we have included the project files though you will have to manualy map the deps adn linked libs.
+
 # MMOServer #
 
 The MMOServer is the flagship project for the [SWG:ANH Team][1]. It is a cross platform massively multiplayer game server intended to emulate the [Star Wars Galaxies][2] Pre-Combat Upgrade experience. The base of the server is written in C++ with some LUA sprinkled in.
