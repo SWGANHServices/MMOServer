@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\CMakeFiles\c447510847ce6ef2ac718ff5d4d04b12\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\build\CMakeFiles\2da4050bc48e3385ffc2477a96ad4a14\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{00B911AE-8FFD-331D-BBD2-B7468D7F1F25}</UniqueIdentifier>
+      <UniqueIdentifier>{971C4440-C4BE-3555-BB1A-001FD6389FE2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

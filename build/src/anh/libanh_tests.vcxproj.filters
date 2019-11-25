@@ -1,20 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher_unittest.cc">
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\byte_buffer_unittest.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\crc_unittest.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher_unittest.cc">
       <Filter>event_dispatcher</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string_unittest.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\utilities_unittest.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\hash_string_unittest.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\utilities_unittest.cc" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt" />
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="event_dispatcher">
-      <UniqueIdentifier>{F4BF72C0-595E-3811-A26F-C8E463DEF416}</UniqueIdentifier>
+      <UniqueIdentifier>{1B39D7F7-8A4D-318A-B3FF-86921FBD288A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

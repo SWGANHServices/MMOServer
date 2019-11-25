@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{73517C2E-62B1-33D6-A8CA-FB057C1E8552}</ProjectGuid>
+    <ProjectGuid>{B1741C04-7DAB-3D8C-A5EE-9845E291FDA5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>libanh</ProjectName>
@@ -55,26 +55,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libanh.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libanh</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libanh.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libanh</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libanh.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libanh</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libanh.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libanh</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\tbb;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories);C:\SWGANH\MMOServer_Legacy\deps\src\tbb\include</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -93,10 +93,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +107,7 @@
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
+call "C:/SWGANH/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/SWGANH/MMOServer_Legacy" "C:/SWGANH/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,7 +122,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4251;4786;4503;4275;4290;4661;4996;4127;4100;4005;4075</DisableSpecificWarnings>
@@ -141,10 +141,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -155,7 +155,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
+call "C:/SWGANH/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/SWGANH/MMOServer_Legacy" "C:/SWGANH/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -170,7 +170,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4251;4786;4503;4275;4290;4661;4996;4127;4100;4005;4075</DisableSpecificWarnings>
@@ -189,10 +189,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,7 +203,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
+call "C:/SWGANH/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/SWGANH/MMOServer_Legacy" "C:/SWGANH/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -218,7 +218,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -236,10 +236,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DBUG_OFF;DYNLOAD_MYSQL_LIB=\"MYSQL_LIB\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\boost;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\glm;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-c\include;C:\SWGANH\MMOServer_Legacy\src;C:\SWGANH\MMOServer_Legacy\deps\src\boost;C:\SWGANH\MMOServer_Legacy\deps\src\glm;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp;C:\SWGANH\MMOServer_Legacy\deps\src\mysql-connector-cpp\driver;C:\SWGANH\MMOServer_Legacy\deps\src\gtest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,7 +250,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Message>
       </Message>
       <Command>setlocal
-call "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy" "C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build" "$(ConfigurationName)"
+call "C:/SWGANH/MMOServer_Legacy/tools/windows/postbuild.bat" "C:/SWGANH/MMOServer_Legacy" "C:/SWGANH/MMOServer_Legacy/build" "$(ConfigurationName)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,10 +264,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SWGANH/MMOServer_Legacy -BC:/SWGANH/MMOServer_Legacy/build --check-stamp-file C:/SWGANH/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,12 +275,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\SWGANH\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\SWGANH\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SWGANH/MMOServer_Legacy -BC:/SWGANH/MMOServer_Legacy/build --check-stamp-file C:/SWGANH/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,12 +288,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\SWGANH\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\SWGANH\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SWGANH/MMOServer_Legacy -BC:/SWGANH/MMOServer_Legacy/build --check-stamp-file C:/SWGANH/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,12 +301,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\SWGANH\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\SWGANH\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy -BC:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SWGANH/MMOServer_Legacy -BC:/SWGANH/MMOServer_Legacy/build --check-stamp-file C:/SWGANH/MMOServer_Legacy/build/src/anh/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -314,28 +314,30 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Administrator/Documents/GitHub/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/SWGANH/MMOServer_Legacy/src/anh/CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;C:\SWGANH\MMOServer_Legacy\tools\cmake\CMakeMacroParseArguments.cmake;C:\SWGANH\MMOServer_Legacy\tools\cmake\MMOServerLibrary.cmake;C:\SWGANH\MMOServer_Legacy\tools\windows\user_project.vcxproj.in;C:\SWGANH\MMOServer_Legacy\src\anh\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SWGANH\MMOServer_Legacy\build\src\anh\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string.cc" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer-inl.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\byte_buffer.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\crc.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\basic_event.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\hash_string.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\anh\utilities.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\byte_buffer-inl.h" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\byte_buffer.cc" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\byte_buffer.h" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\crc.cc" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\crc.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\event_dispatcher\basic_event.h" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.cc" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\event_dispatcher\event_dispatcher.h" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\anh\hash_string.cc" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\hash_string.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\anh\utilities.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\build\ZERO_CHECK.vcxproj">
-      <Project>{45BDA820-01C5-3D86-9B8E-B11B131D5B03}</Project>
+    <ProjectReference Include="C:\SWGANH\MMOServer_Legacy\build\ZERO_CHECK.vcxproj">
+      <Project>{2925ECD6-B115-3549-9DA1-9DE4DF0AAAED}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

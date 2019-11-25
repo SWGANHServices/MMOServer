@@ -1,29 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\BuildingMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CommonMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CreatureMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\FactoryCrateMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\HarvesterMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\IntangibleMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\InternalMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ManSchematicMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MessageLib.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MissionMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ObjControllerMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\PlayerMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\ResourceContainerMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StaticMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\StructureMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\SystemMessages.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\TangibleMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\BuildingMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\CommonMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\CreatureMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\FactoryCrateMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\HarvesterMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\IntangibleMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\InternalMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\ManSchematicMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\MessageLib.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\MissionMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\ObjControllerMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\PlayerMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\ResourceContainerMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\StaticMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\StructureMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\SystemMessages.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\TangibleMessages.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\MessageLib.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\MessageLib.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\MessageLib\CMakeLists.txt" />
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\src\MessageLib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

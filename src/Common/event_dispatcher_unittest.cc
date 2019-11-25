@@ -117,9 +117,7 @@ TEST(EventDispatcherTests, CanConnectListenerToEvent) {
     std::vector<EventListener> listeners = dispatcher.GetListeners(EventType("test_event")).get();
 
     // Make sure there's 1 and only 1 listener registered.
-	EXPECT_EQ(uint32_t(1), listeners.size());
-
-
+    EXPECT_EQ(uint32_t(1), listeners.size());
 
     // Make sure the one item returned back is the same as the one put in.
     EXPECT_EQ(EventListenerType("MockListener"), listeners[0].first);

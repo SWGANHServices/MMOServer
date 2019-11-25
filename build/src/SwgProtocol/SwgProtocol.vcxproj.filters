@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\SwgProtocol\BurstRunEvents.cpp" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\SwgProtocol\ObjectControllerEvents.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\SwgProtocol\BurstRunEvents.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\SwgProtocol\ObjectControllerEvents.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\SwgProtocol\BurstRunEvents.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\SwgProtocol\ObjectControllerEvents.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\SwgProtocol\BurstRunEvents.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\SwgProtocol\ObjectControllerEvents.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\SwgProtocol\CMakeLists.txt" />
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\src\SwgProtocol\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

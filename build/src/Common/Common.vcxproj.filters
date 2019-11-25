@@ -1,34 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\ApplicationService.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\BuildInfo.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Crc.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Event.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\EventDispatcher.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\HashString.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\OutOfBand.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\atMacroString.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\byte_buffer.cc" />
-    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Server.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\ApplicationService.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\BuildInfo.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\Crc.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\Event.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\EventDispatcher.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\HashString.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\OutOfBand.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\Server.cpp" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\atMacroString.cc" />
+    <ClCompile Include="C:\SWGANH\MMOServer_Legacy\src\Common\byte_buffer.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\ApplicationService.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\BuildInfo.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Crc.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Event.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\EventDispatcher.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\HashString.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\IServer.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\OutOfBand.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\Server.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\atMacroString.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\byte_buffer-inl.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\byte_buffer.h" />
-    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\declspec.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\ApplicationService.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\BuildInfo.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\Crc.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\Event.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\EventDispatcher.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\HashString.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\IServer.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\OutOfBand.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\Server.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\atMacroString.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\byte_buffer-inl.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\byte_buffer.h" />
+    <ClInclude Include="C:\SWGANH\MMOServer_Legacy\src\Common\declspec.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\MMOServer_Legacy\src\Common\CMakeLists.txt" />
+    <CustomBuild Include="C:\SWGANH\MMOServer_Legacy\src\Common\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
