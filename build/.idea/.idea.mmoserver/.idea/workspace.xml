@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9243a41f-ae68-41a8-915c-4d5ea409a6a7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.mmoserver/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.mmoserver/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.mmoserver/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.mmoserver/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.mmoserver/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build_server.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../build_server.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build_server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../build_server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CSRManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CSRManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CSRManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CSRManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CSRMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CSRMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CSRObjects.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CSRObjects.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CSROpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CSROpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/Channel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/Channel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/Channel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/Channel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CharacterAdminHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CharacterAdminHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/CharacterAdminHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/CharacterAdminHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatAvatarId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatAvatarId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatAvatarId.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatAvatarId.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatMessageLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatMessageLib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatMessageLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatMessageLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/ChatServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/ChatServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/GroupManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/GroupManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/GroupManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/GroupManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/GroupMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/GroupMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/GroupObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/GroupObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/GroupObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/GroupObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/Mail.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/Mail.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/PlanetMapHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/PlanetMapHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/PlanetMapHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/PlanetMapHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/StructureManagerChat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/StructureManagerChat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/StructureManagerChat.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/StructureManagerChat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/TradeManagerChat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/TradeManagerChat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/TradeManagerChat.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/TradeManagerChat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/TradeManagerHelp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/TradeManagerHelp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/TradeManagerHelp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/TradeManagerHelp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChatServer/TradeMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ChatServer/TradeMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/ApplicationService.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/ApplicationService.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/ApplicationService.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/ApplicationService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/BuildInfo.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/BuildInfo.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/BuildInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/BuildInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Crc.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Crc.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Crc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Crc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Event.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Event.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/EventDispatcher.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/EventDispatcher.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/EventDispatcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/EventDispatcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/HashString.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/HashString.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/HashString.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/HashString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/IServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/IServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/OutOfBand.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/OutOfBand.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/OutOfBand.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/OutOfBand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/Server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/atMacroString.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/atMacroString.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/atMacroString.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/atMacroString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/byte_buffer-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/byte_buffer-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/byte_buffer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/byte_buffer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/byte_buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/byte_buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/byte_buffer_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/byte_buffer_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/crc_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/crc_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/declspec.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/declspec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/event_dispatcher_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/event_dispatcher_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/event_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/event_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/hash_string_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/hash_string_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Common/out_of_band_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Common/out_of_band_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ClientManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ClientManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ClientManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ClientManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatchCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatchCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatchClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionDispatchClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServerOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ConnectionServerOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/MessageRouter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/MessageRouter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/MessageRouter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/MessageRouter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ServerManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ServerManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConnectionServer/ServerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ConnectionServer/ServerManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DataBinding.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DataBinding.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DataBindingFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DataBindingFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DataBindingFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DataBindingFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/Database.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/Database.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/Database.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/Database.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementationMySql.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementationMySql.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementationMySql.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseImplementationMySql.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseJob.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseJob.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseResult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseResult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseResult.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseResult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseType.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseWorkerThread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseWorkerThread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseWorkerThread.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/DatabaseWorkerThread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/Transaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/Transaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DatabaseManager/Transaction.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DatabaseManager/Transaction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/AccountData.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/AccountData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/LoginServerOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/LoginServerOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LoginServer/Message.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/LoginServer/Message.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MathLib/Circle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MathLib/Circle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MathLib/Rectangle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MathLib/Rectangle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MathLib/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MathLib/Shape.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/BuildingMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/BuildingMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/CommonMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/CommonMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/CreatureMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/CreatureMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/FactoryCrateMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/FactoryCrateMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/HarvesterMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/HarvesterMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/IntangibleMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/IntangibleMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/InternalMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/InternalMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/ManSchematicMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/ManSchematicMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/MessageLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/MessageLib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/MessageLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/MessageLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/MissionMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/MissionMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/ObjControllerMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/ObjControllerMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/PlayerMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/PlayerMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/ResourceContainerMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/ResourceContainerMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/StaticMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/StaticMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/StructureMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/StructureMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/SystemMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/SystemMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MessageLib/TangibleMessages.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/MessageLib/TangibleMessages.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/CompCryptor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/CompCryptor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/CompCryptor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/CompCryptor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/DispatchClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/DispatchClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/DispatchClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/DispatchClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Message.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Message.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/MessageDispatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/MessageDispatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/MessageDispatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/MessageDispatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/MessageFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/MessageFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/MessageFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/MessageFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/MessageOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/MessageOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/NetworkManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/NetworkManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Packet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Packet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/PacketFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/PacketFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/PacketFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/PacketFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Service.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Service.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Service.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Service.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Session.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Session.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Session.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Session.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SessionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SessionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SessionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SessionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/Socket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/Socket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SocketReadThread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SocketReadThread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SocketReadThread.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SocketReadThread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SocketWriteThread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SocketWriteThread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/SocketWriteThread.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/SocketWriteThread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/NetworkManager/declspec.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManager/declspec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PingServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PingServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PingServer/PingServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PingServer/PingServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PingServer/PingServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PingServer/PingServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/Script.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/Script.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/Script.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/Script.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngineLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngineLib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngineLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEngineLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEventListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEventListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEventListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptEventListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptSupport.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptSupport.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/ScriptSupport.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/ScriptSupport.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaCommonMessages.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaCommonMessages.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaInterface.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaObject.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaObject.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaObjectControllerCommandMap.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaObjectControllerCommandMap.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScript.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScript.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScriptEngine.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScriptEngine.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScriptSupport.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaScriptSupport.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaTutorial.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaTutorial.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaWorldManager.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/LuaWorldManager.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/tolua++.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ScriptEngine/glue_files/tolua++.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwgProtocol/BurstRunEvents.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwgProtocol/BurstRunEvents.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwgProtocol/BurstRunEvents.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwgProtocol/BurstRunEvents.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwgProtocol/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwgProtocol/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwgProtocol/ObjectControllerEvents.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwgProtocol/ObjectControllerEvents.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwgProtocol/ObjectControllerEvents.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SwgProtocol/ObjectControllerEvents.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/ActiveObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/ActiveObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/ActiveObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/ActiveObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/ConcurrentQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/ConcurrentQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/EventHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/EventHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/EventHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/EventHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/FastDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/FastDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/FastDelegateBind.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/FastDelegateBind.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/MathFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/MathFunctions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/MathFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/MathFunctions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/PriorityVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/PriorityVector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/Scheduler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/Scheduler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/Scheduler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/Scheduler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/Singleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/Singleton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/StreamColors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/StreamColors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/StreamColors.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/StreamColors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/Timer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/Timer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/Timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/Timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/TimerCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/TimerCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/VariableTimeScheduler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/VariableTimeScheduler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/VariableTimeScheduler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/VariableTimeScheduler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/active_object_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/active_object_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/bstring.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/bstring.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/bstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/bstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/clock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/clock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/clock.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/clock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/cmpistr_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/cmpistr_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/colors.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/colors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/concurrent_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/concurrent_queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/concurrent_queue_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/concurrent_queue_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/export.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/export.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/lockfree_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/lockfree_queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/logger.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/math_functions_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/math_functions_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/pipe.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/pipe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/rand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/rand.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/rand.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/rand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/typedefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/typedefs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Utils/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AbstractState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AbstractState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActionState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActionState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActionState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActionState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActionStateEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActionStateEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActionStateEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActionStateEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActiveConversation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActiveConversation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ActiveConversation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ActiveConversation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AdminManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AdminManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AdminManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AdminManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ArtisanHeightmapAsyncContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ArtisanHeightmapAsyncContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ArtisanManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ArtisanManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ArtisanManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ArtisanManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AttackableCreature.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AttackableCreature.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AttackableCreature.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AttackableCreature.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AttackableStaticNpc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AttackableStaticNpc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/AttackableStaticNpc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/AttackableStaticNpc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Badge.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Badge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegion.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BadgeRegionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Bank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Bank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Bank.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Bank.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BankTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BankTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BankTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BankTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BazaarTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BazaarTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BazaarTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BazaarTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Buff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Buff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Buff.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Buff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffAttributeEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffAttributeEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffDBItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffDBItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffDBItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffDBItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffIconsEnum.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffIconsEnum.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuffManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuffManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BugJar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BugJar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BugJar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BugJar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuildingEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuildingEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuildingFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuildingFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuildingFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuildingFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuildingObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuildingObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/BuildingObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/BuildingObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CMWeaponGroup.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CMWeaponGroup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Camp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Camp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Camp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Camp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CampRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CampRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CampRegion.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CampRegion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CampTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CampTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CampTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CampTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CellFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CellFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CellFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CellFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CellObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CellObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CellObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CellObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ChanceCube.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ChanceCube.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ChanceCube.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ChanceCube.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharSheetManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharSheetManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharSheetManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharSheetManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharacterBuilderTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharacterBuilderTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharacterBuilderTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharacterBuilderTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharacterLoginHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharacterLoginHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CharacterLoginHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CharacterLoginHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/City.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/City.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/City.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/City.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CityFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CityFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CityFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CityFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CloningTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CloningTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CloningTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CloningTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CombatManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CombatManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CombatManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CombatManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Container.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Container.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Container.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Container.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ContainerManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ContainerManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ContainerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ContainerManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ContainerObjectFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ContainerObjectFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ContainerObjectFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ContainerObjectFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Conversation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Conversation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Conversation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Conversation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ConversationManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ConversationManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ConversationManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ConversationManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftBatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftBatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftBatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftBatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSession.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSession.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSession.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSession.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionCallBack.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionCallBack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionHelper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingSessionHelper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingStation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingStation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingStation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingStation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingTool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingTool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CraftingTool.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CraftingTool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureEventFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureEventFunctions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureSpawnRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureSpawnRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CreatureSpawnRegion.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CreatureSpawnRegion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CurrentResource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CurrentResource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/CurrentResource.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/CurrentResource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Datapad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Datapad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Datapad.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Datapad.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DatapadFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DatapadFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DatapadFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DatapadFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Deed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Deed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Deed.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Deed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftSchematic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftSchematic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftSchematic.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftSchematic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftSlot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftSlot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftSlot.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftSlot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftWeight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftWeight.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/DraftWeight.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/DraftWeight.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVCmdProperty.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVCmdProperty.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVCmdProperty.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVCmdProperty.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVPosture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVPosture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVPosture.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVPosture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVQueueSize.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVQueueSize.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVQueueSize.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVQueueSize.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVSurveySample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVSurveySample.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVSurveySample.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVSurveySample.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVWeapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVWeapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EVWeapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EVWeapon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ElevatorTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ElevatorTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ElevatorTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ElevatorTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EnqueueValidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EnqueueValidator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EnqueueValidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EnqueueValidator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EntertainerManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EntertainerManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EntertainerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EntertainerManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EquipManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EquipManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/EquipManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/EquipManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryCrate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryCrate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryCrate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryCrate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FactoryObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FactoryObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FillerNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FillerNPC.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FillerNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FillerNPC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Firework.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Firework.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Firework.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Firework.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FireworkEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FireworkEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FireworkManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FireworkManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/FireworkManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/FireworkManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Food.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Food.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Food.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Food.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ForageManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ForageManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ForageManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ForageManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Furniture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Furniture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Furniture.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Furniture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerCallbackContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerCallbackContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupManagerHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/GroupObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/GroupObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Ham.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Ham.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Ham.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Ham.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HamProperty.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HamProperty.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HamProperty.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HamProperty.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HamService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HamService.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HamService.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HamService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HarvesterFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HarvesterFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HarvesterFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HarvesterFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HarvesterObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HarvesterObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HarvesterObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HarvesterObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HeightMapCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HeightMapCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Heightmap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Heightmap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Heightmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Heightmap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HeightmapAsyncContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HeightmapAsyncContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HouseFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HouseFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HouseFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HouseFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HouseObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HouseObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/HouseObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/HouseObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ImageDesignManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ImageDesignManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/IncapRecoveryEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/IncapRecoveryEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/InjuryTreatmentEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/InjuryTreatmentEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Instrument.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Instrument.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Instrument.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Instrument.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/InsuranceTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/InsuranceTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/InsuranceTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/InsuranceTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/IntangibleFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/IntangibleFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/IntangibleFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/IntangibleFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/IntangibleObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/IntangibleObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/IntangibleObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/IntangibleObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Inventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Inventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Inventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Inventory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/InventoryFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/InventoryFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/InventoryFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/InventoryFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Item.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Item.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ItemDeleteEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ItemDeleteEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ItemFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ItemFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ItemFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ItemFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ItemTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ItemTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ItemTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ItemTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Item_Enums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Item_Enums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LairObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LairObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LairObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LairObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LocomotionState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LocomotionState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LocomotionState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LocomotionState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LocomotionStateEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LocomotionStateEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LocomotionStateEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LocomotionStateEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/LogOutEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/LogOutEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ManufacturingSchematic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ManufacturingSchematic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ManufacturingSchematic.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ManufacturingSchematic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MedicHandlerHelpers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MedicHandlerHelpers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MedicHandlerHelpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MedicHandlerHelpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MedicManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MedicManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MedicManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MedicManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Medicine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Medicine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Medicine.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Medicine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionBag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionBag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionBag.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionBag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MissionTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MissionTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MoodTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MoodTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MountObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MountObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MountObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MountObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MovingObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MovingObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/MovingObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/MovingObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NPCObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NPCObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NPCObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NPCObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NPC_Enums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NPC_Enums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentItemFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentItemFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentItemFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentItemFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentNpcFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentNpcFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentNpcFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NonPersistentNpcFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NpcIdentifier.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NpcIdentifier.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NpcManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NpcManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/NpcManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/NpcManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCAdminHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCAdminHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCBioEngineerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCBioEngineerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCBountyHunterHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCBountyHunterHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCBrawlerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCBrawlerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCallbackHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCallbackHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCarbineerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCarbineerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCharacterSheethandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCharacterSheethandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCombatHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCombatHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCombatMedicHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCombatMedicHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCommandoHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCommandoHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCommonHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCommonHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCommonHandlers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCommonHandlers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCContactListsHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCContactListsHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCrateHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCrateHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCCreatureHandlerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCCreatureHandlerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCDataTransformhandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCDataTransformhandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCDatapadHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCDatapadHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCDestroyHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCDestroyHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCDoctorHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCDoctorHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCEntertainerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCEntertainerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCFencerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCFencerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCForceDefenseHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCForceDefenseHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCForceEnhancementHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCForceEnhancementHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCForceHealingHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCForceHealingHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCForceLightsaberHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCForceLightsaberHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCForcePowerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCForcePowerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCGroupHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCGroupHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCMarksmanHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCMarksmanHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCMedicHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCMedicHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCMissionHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCMissionHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCNpcConversationhandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCNpcConversationhandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCPetHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCPetHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCPikemanHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCPikemanHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCPistoleerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCPistoleerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCPostureHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCPostureHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCRangerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCRangerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCResourceContainerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCResourceContainerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCRiflemanHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCRiflemanHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCScoutHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCScoutHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCSkillHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCSkillHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCSmugglerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCSmugglerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCSpatialHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCSpatialHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCSquadLeaderHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCSquadLeaderHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCStructureHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCStructureHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCStructureHandlers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCStructureHandlers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCSwordsmanHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCSwordsmanHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCTerasKasiHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCTerasKasiHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/OCTradeHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/OCTradeHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerCommandMessage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerCommandMessage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjControllerEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectContainer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectContainer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerCommandMap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerCommandMap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerCommandMap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerCommandMap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerDispatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerDispatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerDispatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerDispatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectControllerOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactoryCallback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactoryCallback.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactoryCallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ObjectFactoryCallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Object_Enums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Object_Enums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PVHam.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PVHam.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PVPosture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PVPosture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PVPosture.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PVPosture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PVState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PVState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PVState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PVState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PersistentNpcFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PersistentNpcFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PersistentNpcFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PersistentNpcFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerEventFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerEventFunctions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerObjectFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerObjectFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerObjectFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerObjectFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructure.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructure.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructureTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructureTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructureTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PlayerStructureTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PostureEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PostureEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PostureEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PostureEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PostureState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PostureState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/PostureState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/PostureState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ProcessValidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ProcessValidator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ProcessValidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ProcessValidator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/QuestGiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/QuestGiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/QuestGiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/QuestGiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/QuickHealInjuryTreatmentEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/QuickHealInjuryTreatmentEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RadialEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RadialEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RadialMenu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RadialMenu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RadialMenu.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RadialMenu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RadialMenuItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RadialMenuItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RadialMenuItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RadialMenuItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RegionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RegionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RegionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RegionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RegionObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RegionObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/RegionObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/RegionObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Resource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Resource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Resource.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Resource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCategory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCategory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCategory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCategory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionCommand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionCommand.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionCommand.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionCommand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceCollectionManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainerFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainerFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceContainerFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ResourceType.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ResourceType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SampleEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SampleEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SchematicGroup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SchematicGroup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SchematicGroup.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SchematicGroup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SchematicManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SchematicManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SchematicManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SchematicManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Scout.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Scout.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Scout.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Scout.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ScoutManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ScoutManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ScoutManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ScoutManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SendSystemMailMessage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SendSystemMailMessage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SendSystemMailMessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SendSystemMailMessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Shuttle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Shuttle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Shuttle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Shuttle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ShuttleFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ShuttleFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ShuttleFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ShuttleFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Skill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Skill.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Skill.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Skill.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SkillEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SkillEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SkillManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SkillManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SkillManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SkillManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SocialChatTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SocialChatTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexMessagingServices.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpatialIndexMessagingServices.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpawnPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpawnPoint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegion.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegionFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegionFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SpawnRegionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StateManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StateManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StateManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StateManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StateRules.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StateRules.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StateRules.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StateRules.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StaticObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StaticObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StaticObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StaticObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Stomach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Stomach.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Stomach.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Stomach.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureHeightmapAsyncContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureHeightmapAsyncContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerCallbackHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerCallbackHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerCommandMap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerCommandMap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerUIManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/StructureManagerUIManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SurveyEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SurveyEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SurveyTool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SurveyTool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/SurveyTool.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/SurveyTool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TangibleEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TangibleEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TangibleFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TangibleFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TangibleFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TangibleFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TangibleObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TangibleObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TangibleObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TangibleObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Terminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Terminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Terminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Terminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TerminalFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TerminalFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TerminalFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TerminalFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TicketCollector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TicketCollector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TicketCollector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TicketCollector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TicketCollectorFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TicketCollectorFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TicketCollectorFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TicketCollectorFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Trade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Trade.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Trade.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Trade.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TradeManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TradeManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TradeManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TradeManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Trainer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Trainer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Trainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Trainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelMapHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelMapHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelMapHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelMapHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelTerminal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelTerminal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelTerminal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelTerminal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelTicket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelTicket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TravelTicket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TravelTicket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TreasuryManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TreasuryManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/TreasuryManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/TreasuryManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Tutorial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Tutorial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Tutorial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Tutorial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIButton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIButton.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIButton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UICallback.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UICallback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UICloneSelectListBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UICloneSelectListBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UICustomWindows.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UICustomWindows.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIDropdownBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIDropdownBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIDropdownBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIDropdownBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIInputBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIInputBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIInputBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIInputBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIInputField.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIInputField.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIInputField.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIInputField.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIListBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIListBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIListBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIListBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIMessageBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIMessageBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIMessageBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIMessageBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIOfferTeachBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIOfferTeachBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIPlayerSelectBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIPlayerSelectBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIResourceSelectListBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIResourceSelectListBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UISkillSelectBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UISkillSelectBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UITicketSelectListBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UITicketSelectListBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UITransferBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UITransferBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UITransferBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UITransferBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIWindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/UIWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/UIWindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/VehicleController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/VehicleController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/VehicleController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/VehicleController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/VehicleControllerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/VehicleControllerFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/VehicleControllerFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/VehicleControllerFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WaypointFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WaypointFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WaypointFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WaypointFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WaypointObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WaypointObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WaypointObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WaypointObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Weapon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Wearable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Wearable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Wearable.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Wearable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Weather.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Weather.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WeightsBatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WeightsBatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WeightsBatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WeightsBatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldConfig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerDataBaseHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerDataBaseHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerEnums.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerEnums.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerNPCHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerNPCHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerObjectHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerObjectHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerPlayerHandlers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WorldManagerPlayerHandlers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/WoundTreatmentEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/WoundTreatmentEvent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Zmap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Zmap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/Zmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/Zmap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ZoneOpcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ZoneOpcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/ZoneServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/ZoneServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/declspec.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/declspec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/noiseutils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/noiseutils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/noiseutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/noiseutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/nonPersistantObjectFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/nonPersistantObjectFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/nonPersistantObjectFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/nonPersistantObjectFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/objcontrollercommandmessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/objcontrollercommandmessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ZoneServer/resource1.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ZoneServer/resource1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/byte_buffer-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/byte_buffer-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/byte_buffer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/byte_buffer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/byte_buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/byte_buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/byte_buffer_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/byte_buffer_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/crc.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/crc.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/crc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/crc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/crc_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/crc_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/event_dispatcher/basic_event.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/event_dispatcher/basic_event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/event_dispatcher/event_dispatcher_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/hash_string.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/hash_string.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/hash_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/hash_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/hash_string_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/hash_string_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/utilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/utilities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/anh/utilities_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../src/anh/utilities_unittest.cc" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../src/ZoneServer/AbstractState.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="y" value="172" />
+    <option name="width" value="1292" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="mmoserver (19 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9243a41f-ae68-41a8-915c-4d5ea409a6a7" name="Default" comment="" />
+      <created>1525900865738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525900865738</updated>
+      <workItem from="1525900885029" duration="720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="720000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="172" width="1292" height="688" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32909092" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
